@@ -119,12 +119,22 @@ namespace LY.PF.SaleFunnels
             }
             //区域列表
             var allDistrict = await _districtRepository.GetAllListAsync();
+            var parentDistrict = allDistrict.Where(s => s.ParentDistrictId < 1);
             var allDistrictList = new List<ComboboxItemDto>();
             //allDistrictList.Add(new ComboboxItemDto() { Value = "0", DisplayText = "请选择" });
-            foreach (var item in allDistrict)
+            foreach (var item in parentDistrict)
             {
+
                 allDistrictList.Add(new ComboboxItemDto() { Value = item.Id.ToString(), DisplayText = item.DistrictName });
                 SetDistrictSelect(allDistrict, allDistrictList, item, "--");
+            }
+            //allDistrictList.ForEach(s => s.Value.Equals(saleFunnelEditDto.District.ToString()) ? s.IsSelected = true : s.IsSelected = false);
+            foreach (var item in allDistrictList)
+            {
+                if (item.Value.Equals(saleFunnelEditDto.District))
+                {
+                    item.IsSelected = true;
+                }
             }
             output.Districts = allDistrictList;
             //客户类型
@@ -135,6 +145,13 @@ namespace LY.PF.SaleFunnels
             {
                 allClientTypeList.Add(new ComboboxItemDto() { Value = item.Id.ToString(), DisplayText = item.ClientTypeName });
             }
+            foreach (var item in allClientTypeList)
+            {
+                if (item.Value.Equals(saleFunnelEditDto.ClientType.ToString()))
+                {
+                    item.IsSelected = true;
+                }
+            }
             output.ClientTypes = allClientTypeList;
             //产品类型
             var allProductTypet = await _productTypeRepository.GetAllListAsync();
@@ -143,6 +160,13 @@ namespace LY.PF.SaleFunnels
             foreach (var item in allProductTypet)
             {
                 allProductTypeList.Add(new ComboboxItemDto() { Value = item.Id.ToString(), DisplayText = item.ProductTypeName });
+            }
+            foreach (var item in allProductTypeList)
+            {
+                if (item.Value.Equals(saleFunnelEditDto.ProductType.ToString()))
+                {
+                    item.IsSelected = true;
+                }
             }
             output.ProductTypes = allProductTypeList;
 

@@ -17892,3 +17892,1143 @@ DEBUG 2019-09-01 19:47:59,666 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 DEBUG 2019-09-01 19:48:12,179 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9a18abad-ed98-4e8b-9bdd-f46121234592
 DEBUG 2019-09-01 19:48:22,952 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"731b319f-49a7-4834-85a7-c4c52cc85ecf","IpAddress":"192.168.124.9","TenantId":1,"UserId":2,"ConnectTime":"2019-09-01T19:48:22.9365391+08:00","Properties":{}}
 DEBUG 2019-09-01 19:48:23,026 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 731b319f-49a7-4834-85a7-c4c52cc85ecf
+DEBUG 2019-09-08 16:38:43,118 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-08 16:38:43,183 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-09-08 16:38:43,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.Web.PFWebModule, LY.PF.Web, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFDataModule, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,248 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFCoreModule, LY.PF.Core, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,248 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,249 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFApplicationModule, LY.PF.Application, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.WebApi.PFWebApiModule, LY.PF.WebApi, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:38:43,264 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-09-08 16:38:44,538 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 16:38:44,538 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 16:38:44,538 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 16:38:44,538 [1    ] o.Configuration.LanguageManagementConfig - Converted PF (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 16:38:46,561 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LY.PF.EntityFramework.PFDbContext, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 16:39:03,532 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-08 16:39:03,801 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-08 16:39:03,817 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-08 16:39:03,903 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-08 16:39:04,034 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PF
+DEBUG 2019-09-08 16:39:04,307 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-08 16:39:09,234 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 16:39:10,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 53 classes define auto mapping attributes
+DEBUG 2019-09-08 16:39:10,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Cache.FriendCacheItem
+DEBUG 2019-09-08 16:39:10,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-08 16:39:10,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-08 16:39:10,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderEditDto
+DEBUG 2019-09-08 16:39:10,988 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderListDto
+DEBUG 2019-09-08 16:39:10,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelEditDto
+DEBUG 2019-09-08 16:39:10,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelListDto
+DEBUG 2019-09-08 16:39:10,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeEditDto
+DEBUG 2019-09-08 16:39:10,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeListDto
+DEBUG 2019-09-08 16:39:10,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-09-08 16:39:10,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-09-08 16:39:10,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-09-08 16:39:10,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-09-08 16:39:10,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-09-08 16:39:10,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-09-08 16:39:10,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-09-08 16:39:10,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Dto.FriendDto
+DEBUG 2019-09-08 16:39:10,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionEditDto
+DEBUG 2019-09-08 16:39:10,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.FlatFeatureDto
+DEBUG 2019-09-08 16:39:10,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionListDto
+DEBUG 2019-09-08 16:39:10,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatMessageDto
+DEBUG 2019-09-08 16:39:10,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserDto
+DEBUG 2019-09-08 16:39:10,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-09-08 16:39:10,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-09-08 16:39:10,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-09-08 16:39:10,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto
+DEBUG 2019-09-08 16:39:10,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-09-08 16:39:10,992 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-09-08 16:39:10,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-09-08 16:39:10,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-09-08 16:39:10,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Auditing.Dto.AuditLogListDto
+DEBUG 2019-09-08 16:39:10,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentEditDto
+DEBUG 2019-09-08 16:39:10,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentListDto
+DEBUG 2019-09-08 16:39:10,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictEditDto
+DEBUG 2019-09-08 16:39:10,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictListDto
+DEBUG 2019-09-08 16:39:10,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeEditDto
+DEBUG 2019-09-08 16:39:10,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeListDto
+DEBUG 2019-09-08 16:39:10,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-09-08 16:39:10,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-09-08 16:39:10,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-09-08 16:39:10,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-09-08 16:39:10,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-09-08 16:39:10,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-09-08 16:39:10,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-09-08 16:39:10,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-09-08 16:39:10,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-09-08 16:39:10,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleOrderManage.CreateOrEditSaleOrderModalViewModel
+DEBUG 2019-09-08 16:39:10,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleFunnelManage.CreateOrEditSaleFunnelModalViewModel
+DEBUG 2019-09-08 16:39:10,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ProductTypeManage.CreateOrEditProductTypeModalViewModel
+DEBUG 2019-09-08 16:39:10,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.IndentManage.CreateOrEditIndentModalViewModel
+DEBUG 2019-09-08 16:39:10,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.DistrictManage.CreateOrEditDistrictModalViewModel
+DEBUG 2019-09-08 16:39:10,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ClientTypeManage.CreateOrEditClientTypeModalViewModel
+DEBUG 2019-09-08 16:39:10,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-09-08 16:39:14,262 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 16:39:14,346 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 16:39:14,381 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-09-08 16:39:14,385 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-09-08 16:39:14,390 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-09-08 16:39:14,394 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleOrders.ISaleOrderAppService' with service name 'app/saleOrder'.
+DEBUG 2019-09-08 16:39:14,398 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleFunnels.ISaleFunnelAppService' with service name 'app/saleFunnel'.
+DEBUG 2019-09-08 16:39:14,402 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ProductTypes.IProductTypeAppService' with service name 'app/productType'.
+DEBUG 2019-09-08 16:39:14,408 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-09-08 16:39:14,412 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-09-08 16:39:14,416 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-09-08 16:39:14,420 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-09-08 16:39:14,425 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-09-08 16:39:14,430 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-09-08 16:39:14,436 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-09-08 16:39:14,441 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-09-08 16:39:14,445 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-09-08 16:39:14,450 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-09-08 16:39:14,456 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-09-08 16:39:14,460 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-09-08 16:39:14,466 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-09-08 16:39:14,472 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-09-08 16:39:14,477 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-09-08 16:39:14,481 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-09-08 16:39:14,485 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-09-08 16:39:14,489 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2019-09-08 16:39:14,494 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Indents.IIndentAppService' with service name 'app/indent'.
+DEBUG 2019-09-08 16:39:14,498 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Districts.IDistrictAppService' with service name 'app/district'.
+DEBUG 2019-09-08 16:39:14,502 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-09-08 16:39:14,507 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ClientTypes.IClientTypeAppService' with service name 'app/clientType'.
+WARN  2019-09-08 16:40:17,573 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'SaleFunnel' in localization source 'PF'!
+WARN  2019-09-08 16:40:17,587 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'Indent' in localization source 'PF'!
+WARN  2019-09-08 16:40:17,602 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'ChartData' in localization source 'PF'!
+DEBUG 2019-09-08 16:44:35,774 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e6e4f57b-90c9-46e0-ad98-9b0149197cd9","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T16:44:35.7546015+08:00","Properties":{}}
+DEBUG 2019-09-08 16:44:36,933 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e6e4f57b-90c9-46e0-ad98-9b0149197cd9
+DEBUG 2019-09-08 16:45:05,434 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e6e4f57b-90c9-46e0-ad98-9b0149197cd9
+DEBUG 2019-09-08 16:45:17,857 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8b7c99df-8c91-4bf3-a1af-d497a53465dd","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T16:45:17.8390086+08:00","Properties":{}}
+DEBUG 2019-09-08 16:45:18,060 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8b7c99df-8c91-4bf3-a1af-d497a53465dd
+WARN  2019-09-08 16:46:04,225 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 16:46:45,468 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 16:47:11,227 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 17:07:11,713 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-08 17:07:18,686 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-09-08 17:07:18,716 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.Web.PFWebModule, LY.PF.Web, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFDataModule, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,802 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFCoreModule, LY.PF.Core, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFApplicationModule, LY.PF.Application, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.WebApi.PFWebApiModule, LY.PF.WebApi, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:07:18,833 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-09-08 17:08:23,826 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 17:08:23,826 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 17:08:23,826 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 17:08:23,826 [1    ] o.Configuration.LanguageManagementConfig - Converted PF (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 17:08:38,467 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LY.PF.EntityFramework.PFDbContext, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 17:08:52,585 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-08 17:08:52,807 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-08 17:08:52,825 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-08 17:08:52,886 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-08 17:08:53,017 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PF
+DEBUG 2019-09-08 17:08:53,505 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-08 17:09:06,838 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 17:09:11,525 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 53 classes define auto mapping attributes
+DEBUG 2019-09-08 17:09:11,525 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Cache.FriendCacheItem
+DEBUG 2019-09-08 17:09:11,566 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-08 17:09:11,566 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-08 17:09:11,566 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderEditDto
+DEBUG 2019-09-08 17:09:11,567 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderListDto
+DEBUG 2019-09-08 17:09:11,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelEditDto
+DEBUG 2019-09-08 17:09:11,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelListDto
+DEBUG 2019-09-08 17:09:11,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeEditDto
+DEBUG 2019-09-08 17:09:11,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeListDto
+DEBUG 2019-09-08 17:09:11,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-09-08 17:09:11,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-09-08 17:09:11,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-09-08 17:09:11,568 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-09-08 17:09:11,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-09-08 17:09:11,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-09-08 17:09:11,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-09-08 17:09:11,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Dto.FriendDto
+DEBUG 2019-09-08 17:09:11,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionEditDto
+DEBUG 2019-09-08 17:09:11,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.FlatFeatureDto
+DEBUG 2019-09-08 17:09:11,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionListDto
+DEBUG 2019-09-08 17:09:11,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatMessageDto
+DEBUG 2019-09-08 17:09:11,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserDto
+DEBUG 2019-09-08 17:09:11,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-09-08 17:09:11,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-09-08 17:09:11,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-09-08 17:09:11,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto
+DEBUG 2019-09-08 17:09:11,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-09-08 17:09:11,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-09-08 17:09:11,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-09-08 17:09:11,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-09-08 17:09:11,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Auditing.Dto.AuditLogListDto
+DEBUG 2019-09-08 17:09:11,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentEditDto
+DEBUG 2019-09-08 17:09:11,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentListDto
+DEBUG 2019-09-08 17:09:11,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictEditDto
+DEBUG 2019-09-08 17:09:11,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictListDto
+DEBUG 2019-09-08 17:09:11,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeEditDto
+DEBUG 2019-09-08 17:09:11,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeListDto
+DEBUG 2019-09-08 17:09:11,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-09-08 17:09:11,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-09-08 17:09:11,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-09-08 17:09:11,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-09-08 17:09:11,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-09-08 17:09:11,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-09-08 17:09:11,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-09-08 17:09:11,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-09-08 17:09:11,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-09-08 17:09:11,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleOrderManage.CreateOrEditSaleOrderModalViewModel
+DEBUG 2019-09-08 17:09:11,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleFunnelManage.CreateOrEditSaleFunnelModalViewModel
+DEBUG 2019-09-08 17:09:11,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ProductTypeManage.CreateOrEditProductTypeModalViewModel
+DEBUG 2019-09-08 17:09:11,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.IndentManage.CreateOrEditIndentModalViewModel
+DEBUG 2019-09-08 17:09:11,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.DistrictManage.CreateOrEditDistrictModalViewModel
+DEBUG 2019-09-08 17:09:11,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ClientTypeManage.CreateOrEditClientTypeModalViewModel
+DEBUG 2019-09-08 17:09:11,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-09-08 17:09:20,617 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 17:09:20,922 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 17:09:20,957 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-09-08 17:09:20,963 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-09-08 17:09:20,967 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-09-08 17:09:20,971 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleOrders.ISaleOrderAppService' with service name 'app/saleOrder'.
+DEBUG 2019-09-08 17:09:20,980 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleFunnels.ISaleFunnelAppService' with service name 'app/saleFunnel'.
+DEBUG 2019-09-08 17:09:20,984 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ProductTypes.IProductTypeAppService' with service name 'app/productType'.
+DEBUG 2019-09-08 17:09:20,988 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-09-08 17:09:20,993 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-09-08 17:09:20,997 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-09-08 17:09:21,002 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-09-08 17:09:21,006 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-09-08 17:09:21,011 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-09-08 17:09:21,016 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-09-08 17:09:21,021 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-09-08 17:09:21,025 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-09-08 17:09:21,032 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-09-08 17:09:21,036 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-09-08 17:09:21,040 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-09-08 17:09:21,045 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-09-08 17:09:21,050 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-09-08 17:09:21,054 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-09-08 17:09:21,059 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-09-08 17:09:21,063 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-09-08 17:09:21,070 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2019-09-08 17:09:21,074 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Indents.IIndentAppService' with service name 'app/indent'.
+DEBUG 2019-09-08 17:09:21,083 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Districts.IDistrictAppService' with service name 'app/district'.
+DEBUG 2019-09-08 17:09:21,087 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-09-08 17:09:21,092 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ClientTypes.IClientTypeAppService' with service name 'app/clientType'.
+WARN  2019-09-08 17:10:30,214 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'SaleFunnel' in localization source 'PF'!
+WARN  2019-09-08 17:10:30,226 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Indent' in localization source 'PF'!
+WARN  2019-09-08 17:10:30,239 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'ChartData' in localization source 'PF'!
+DEBUG 2019-09-08 17:12:43,440 [3    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"51a243c0-f226-4315-80c4-91a89d78c305","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:12:43.4181303+08:00","Properties":{}}
+DEBUG 2019-09-08 17:12:44,301 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 51a243c0-f226-4315-80c4-91a89d78c305
+DEBUG 2019-09-08 17:12:59,737 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 51a243c0-f226-4315-80c4-91a89d78c305
+DEBUG 2019-09-08 17:13:11,818 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"779d961e-6e66-4622-9e10-0333e7b11073","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:13:11.805754+08:00","Properties":{}}
+DEBUG 2019-09-08 17:13:11,912 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 779d961e-6e66-4622-9e10-0333e7b11073
+DEBUG 2019-09-08 17:13:38,252 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"779d961e-6e66-4622-9e10-0333e7b11073","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:13:11.805754+08:00","Properties":{}}
+DEBUG 2019-09-08 17:14:20,150 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"779d961e-6e66-4622-9e10-0333e7b11073","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:13:11.805754+08:00","Properties":{}}
+WARN  2019-09-08 17:14:29,499 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 17:14:34,730 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 17:22:00,418 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 779d961e-6e66-4622-9e10-0333e7b11073
+DEBUG 2019-09-08 17:22:09,506 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"42a5215b-cb93-41de-a0e6-0355374a7fbb","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:22:09.494508+08:00","Properties":{}}
+DEBUG 2019-09-08 17:22:09,609 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 42a5215b-cb93-41de-a0e6-0355374a7fbb
+WARN  2019-09-08 17:22:25,539 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 17:22:54,640 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 42a5215b-cb93-41de-a0e6-0355374a7fbb
+DEBUG 2019-09-08 17:23:03,633 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"84b4c060-47f2-4163-a838-e4d4c08448f5","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:23:03.6206039+08:00","Properties":{}}
+DEBUG 2019-09-08 17:23:03,826 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 84b4c060-47f2-4163-a838-e4d4c08448f5
+WARN  2019-09-08 17:23:08,366 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 17:23:30,269 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 17:23:56,295 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 84b4c060-47f2-4163-a838-e4d4c08448f5
+DEBUG 2019-09-08 17:24:05,263 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"aeea698a-3df9-4340-bcaf-c48495035847","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:24:05.2081265+08:00","Properties":{}}
+DEBUG 2019-09-08 17:24:05,394 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: aeea698a-3df9-4340-bcaf-c48495035847
+WARN  2019-09-08 17:24:12,415 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 17:24:28,761 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 17:24:41,099 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 17:26:57,611 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: aeea698a-3df9-4340-bcaf-c48495035847
+DEBUG 2019-09-08 17:27:06,104 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0644348f-2708-4fc7-a4c9-a8e07e10cb37","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:27:06.0874722+08:00","Properties":{}}
+DEBUG 2019-09-08 17:27:06,157 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0644348f-2708-4fc7-a4c9-a8e07e10cb37
+DEBUG 2019-09-08 17:27:28,738 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0644348f-2708-4fc7-a4c9-a8e07e10cb37
+DEBUG 2019-09-08 17:27:37,096 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"661d0a8d-4afd-4f97-8113-c05b9513e837","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:27:37.083245+08:00","Properties":{}}
+DEBUG 2019-09-08 17:27:37,176 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 661d0a8d-4afd-4f97-8113-c05b9513e837
+DEBUG 2019-09-08 17:31:33,557 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 661d0a8d-4afd-4f97-8113-c05b9513e837
+DEBUG 2019-09-08 17:31:42,894 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"867bacf5-65e4-43b4-a08c-5d969e583ab4","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:31:42.8173002+08:00","Properties":{}}
+DEBUG 2019-09-08 17:31:43,012 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 867bacf5-65e4-43b4-a08c-5d969e583ab4
+WARN  2019-09-08 17:31:50,970 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 17:32:37,839 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"867bacf5-65e4-43b4-a08c-5d969e583ab4","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:31:42.8173002+08:00","Properties":{}}
+DEBUG 2019-09-08 17:32:38,246 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"867bacf5-65e4-43b4-a08c-5d969e583ab4","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:31:42.8173002+08:00","Properties":{}}
+WARN  2019-09-08 17:32:39,696 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 17:33:08,753 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 17:37:06,829 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"867bacf5-65e4-43b4-a08c-5d969e583ab4","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:31:42.8173002+08:00","Properties":{}}
+DEBUG 2019-09-08 17:37:06,925 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"867bacf5-65e4-43b4-a08c-5d969e583ab4","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:31:42.8173002+08:00","Properties":{}}
+DEBUG 2019-09-08 17:37:06,980 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"867bacf5-65e4-43b4-a08c-5d969e583ab4","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:31:42.8173002+08:00","Properties":{}}
+DEBUG 2019-09-08 17:37:07,039 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"867bacf5-65e4-43b4-a08c-5d969e583ab4","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:31:42.8173002+08:00","Properties":{}}
+DEBUG 2019-09-08 17:37:07,132 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"867bacf5-65e4-43b4-a08c-5d969e583ab4","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:31:42.8173002+08:00","Properties":{}}
+WARN  2019-09-08 17:37:07,173 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 17:37:07,201 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"867bacf5-65e4-43b4-a08c-5d969e583ab4","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:31:42.8173002+08:00","Properties":{}}
+DEBUG 2019-09-08 17:37:10,612 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dc14b663-4dea-421e-878c-6e91b2f41a27","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T17:37:10.5980482+08:00","Properties":{}}
+DEBUG 2019-09-08 17:37:46,727 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 867bacf5-65e4-43b4-a08c-5d969e583ab4
+DEBUG 2019-09-08 18:13:56,820 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-08 18:13:56,880 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-09-08 18:13:56,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.Web.PFWebModule, LY.PF.Web, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,921 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,922 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFDataModule, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,922 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,923 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFCoreModule, LY.PF.Core, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFApplicationModule, LY.PF.Application, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.WebApi.PFWebApiModule, LY.PF.WebApi, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:13:56,941 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-09-08 18:13:57,824 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 18:13:57,824 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 18:13:57,824 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 18:13:57,824 [1    ] o.Configuration.LanguageManagementConfig - Converted PF (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 18:13:59,318 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LY.PF.EntityFramework.PFDbContext, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:14:08,745 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-08 18:14:08,918 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-08 18:14:08,933 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-08 18:14:08,974 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-08 18:14:09,052 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PF
+DEBUG 2019-09-08 18:14:09,295 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-08 18:14:12,762 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 18:14:13,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 53 classes define auto mapping attributes
+DEBUG 2019-09-08 18:14:13,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Cache.FriendCacheItem
+DEBUG 2019-09-08 18:14:13,463 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-08 18:14:13,463 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-08 18:14:13,463 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderEditDto
+DEBUG 2019-09-08 18:14:13,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderListDto
+DEBUG 2019-09-08 18:14:13,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelEditDto
+DEBUG 2019-09-08 18:14:13,465 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelListDto
+DEBUG 2019-09-08 18:14:13,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeEditDto
+DEBUG 2019-09-08 18:14:13,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeListDto
+DEBUG 2019-09-08 18:14:13,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-09-08 18:14:13,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-09-08 18:14:13,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-09-08 18:14:13,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-09-08 18:14:13,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-09-08 18:14:13,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-09-08 18:14:13,467 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-09-08 18:14:13,467 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Dto.FriendDto
+DEBUG 2019-09-08 18:14:13,467 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionEditDto
+DEBUG 2019-09-08 18:14:13,467 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.FlatFeatureDto
+DEBUG 2019-09-08 18:14:13,467 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionListDto
+DEBUG 2019-09-08 18:14:13,467 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatMessageDto
+DEBUG 2019-09-08 18:14:13,468 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserDto
+DEBUG 2019-09-08 18:14:13,468 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-09-08 18:14:13,468 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-09-08 18:14:13,468 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-09-08 18:14:13,468 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto
+DEBUG 2019-09-08 18:14:13,468 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-09-08 18:14:13,468 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-09-08 18:14:13,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-09-08 18:14:13,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-09-08 18:14:13,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Auditing.Dto.AuditLogListDto
+DEBUG 2019-09-08 18:14:13,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentEditDto
+DEBUG 2019-09-08 18:14:13,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentListDto
+DEBUG 2019-09-08 18:14:13,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictEditDto
+DEBUG 2019-09-08 18:14:13,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictListDto
+DEBUG 2019-09-08 18:14:13,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeEditDto
+DEBUG 2019-09-08 18:14:13,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeListDto
+DEBUG 2019-09-08 18:14:13,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-09-08 18:14:13,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-09-08 18:14:13,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-09-08 18:14:13,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-09-08 18:14:13,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-09-08 18:14:13,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-09-08 18:14:13,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-09-08 18:14:13,470 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-09-08 18:14:13,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-09-08 18:14:13,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleOrderManage.CreateOrEditSaleOrderModalViewModel
+DEBUG 2019-09-08 18:14:13,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleFunnelManage.CreateOrEditSaleFunnelModalViewModel
+DEBUG 2019-09-08 18:14:13,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ProductTypeManage.CreateOrEditProductTypeModalViewModel
+DEBUG 2019-09-08 18:14:13,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.IndentManage.CreateOrEditIndentModalViewModel
+DEBUG 2019-09-08 18:14:13,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.DistrictManage.CreateOrEditDistrictModalViewModel
+DEBUG 2019-09-08 18:14:13,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ClientTypeManage.CreateOrEditClientTypeModalViewModel
+DEBUG 2019-09-08 18:14:13,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-09-08 18:14:15,311 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 18:14:15,388 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 18:14:15,424 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-09-08 18:14:15,428 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-09-08 18:14:15,432 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-09-08 18:14:15,437 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleOrders.ISaleOrderAppService' with service name 'app/saleOrder'.
+DEBUG 2019-09-08 18:14:15,440 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleFunnels.ISaleFunnelAppService' with service name 'app/saleFunnel'.
+DEBUG 2019-09-08 18:14:15,444 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ProductTypes.IProductTypeAppService' with service name 'app/productType'.
+DEBUG 2019-09-08 18:14:15,451 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-09-08 18:14:15,456 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-09-08 18:14:15,461 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-09-08 18:14:15,466 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-09-08 18:14:15,470 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-09-08 18:14:15,474 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-09-08 18:14:15,478 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-09-08 18:14:15,482 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-09-08 18:14:15,488 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-09-08 18:14:15,492 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-09-08 18:14:15,497 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-09-08 18:14:15,502 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-09-08 18:14:15,506 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-09-08 18:14:15,513 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-09-08 18:14:15,518 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-09-08 18:14:15,521 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-09-08 18:14:15,525 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-09-08 18:14:15,539 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2019-09-08 18:14:15,543 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Indents.IIndentAppService' with service name 'app/indent'.
+DEBUG 2019-09-08 18:14:15,547 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Districts.IDistrictAppService' with service name 'app/district'.
+DEBUG 2019-09-08 18:14:15,551 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-09-08 18:14:15,555 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ClientTypes.IClientTypeAppService' with service name 'app/clientType'.
+WARN  2019-09-08 18:14:54,014 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'SaleFunnel' in localization source 'PF'!
+WARN  2019-09-08 18:14:54,039 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Indent' in localization source 'PF'!
+WARN  2019-09-08 18:14:54,055 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'ChartData' in localization source 'PF'!
+DEBUG 2019-09-08 18:15:44,283 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8424e0e0-158d-420b-af8b-80ef6c28dc18","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T18:15:44.2613822+08:00","Properties":{}}
+DEBUG 2019-09-08 18:15:44,988 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8424e0e0-158d-420b-af8b-80ef6c28dc18
+DEBUG 2019-09-08 18:16:13,102 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8424e0e0-158d-420b-af8b-80ef6c28dc18
+DEBUG 2019-09-08 18:16:19,309 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f84e5e67-8e8f-43e0-8f9d-dbb0a67673c9","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T18:16:19.2943859+08:00","Properties":{}}
+DEBUG 2019-09-08 18:16:19,475 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f84e5e67-8e8f-43e0-8f9d-dbb0a67673c9
+WARN  2019-09-08 18:16:32,435 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 18:17:31,552 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 18:17:56,268 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f84e5e67-8e8f-43e0-8f9d-dbb0a67673c9
+DEBUG 2019-09-08 18:18:05,600 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4ada64ca-896c-4d87-a8cf-850d7496627a","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T18:18:05.5874656+08:00","Properties":{}}
+DEBUG 2019-09-08 18:18:05,747 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4ada64ca-896c-4d87-a8cf-850d7496627a
+WARN  2019-09-08 18:18:10,706 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 18:18:31,961 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4ada64ca-896c-4d87-a8cf-850d7496627a
+DEBUG 2019-09-08 18:18:38,338 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f4ea2fc4-02a2-4350-8e29-9a082af99dcf","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T18:18:38.3233379+08:00","Properties":{}}
+DEBUG 2019-09-08 18:18:38,461 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f4ea2fc4-02a2-4350-8e29-9a082af99dcf
+WARN  2019-09-08 18:18:41,092 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 18:18:53,438 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 18:37:52,072 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f4ea2fc4-02a2-4350-8e29-9a082af99dcf
+DEBUG 2019-09-08 18:42:50,793 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-08 18:42:55,484 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-09-08 18:42:55,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.Web.PFWebModule, LY.PF.Web, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,517 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,518 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,522 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFDataModule, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,629 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFCoreModule, LY.PF.Core, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFApplicationModule, LY.PF.Application, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.WebApi.PFWebApiModule, LY.PF.WebApi, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,634 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:42:55,648 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-09-08 18:43:04,274 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 18:43:04,274 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 18:43:04,274 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 18:43:04,274 [1    ] o.Configuration.LanguageManagementConfig - Converted PF (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 18:43:06,571 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LY.PF.EntityFramework.PFDbContext, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 18:43:11,236 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-08 18:43:11,446 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-08 18:43:11,463 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-08 18:43:11,501 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-08 18:43:11,597 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PF
+DEBUG 2019-09-08 18:43:11,838 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-08 18:43:16,638 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 18:43:17,458 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 53 classes define auto mapping attributes
+DEBUG 2019-09-08 18:43:17,458 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Cache.FriendCacheItem
+DEBUG 2019-09-08 18:43:17,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-08 18:43:17,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-08 18:43:17,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderEditDto
+DEBUG 2019-09-08 18:43:17,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderListDto
+DEBUG 2019-09-08 18:43:17,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelEditDto
+DEBUG 2019-09-08 18:43:17,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelListDto
+DEBUG 2019-09-08 18:43:17,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeEditDto
+DEBUG 2019-09-08 18:43:17,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeListDto
+DEBUG 2019-09-08 18:43:17,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-09-08 18:43:17,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-09-08 18:43:17,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-09-08 18:43:17,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-09-08 18:43:17,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-09-08 18:43:17,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-09-08 18:43:17,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-09-08 18:43:17,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Dto.FriendDto
+DEBUG 2019-09-08 18:43:17,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionEditDto
+DEBUG 2019-09-08 18:43:17,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.FlatFeatureDto
+DEBUG 2019-09-08 18:43:17,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionListDto
+DEBUG 2019-09-08 18:43:17,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatMessageDto
+DEBUG 2019-09-08 18:43:17,474 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserDto
+DEBUG 2019-09-08 18:43:17,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-09-08 18:43:17,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-09-08 18:43:17,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-09-08 18:43:17,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto
+DEBUG 2019-09-08 18:43:17,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-09-08 18:43:17,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-09-08 18:43:17,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-09-08 18:43:17,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-09-08 18:43:17,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Auditing.Dto.AuditLogListDto
+DEBUG 2019-09-08 18:43:17,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentEditDto
+DEBUG 2019-09-08 18:43:17,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentListDto
+DEBUG 2019-09-08 18:43:17,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictEditDto
+DEBUG 2019-09-08 18:43:17,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictListDto
+DEBUG 2019-09-08 18:43:17,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeEditDto
+DEBUG 2019-09-08 18:43:17,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeListDto
+DEBUG 2019-09-08 18:43:17,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-09-08 18:43:17,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-09-08 18:43:17,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-09-08 18:43:17,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-09-08 18:43:17,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-09-08 18:43:17,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-09-08 18:43:17,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-09-08 18:43:17,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-09-08 18:43:17,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-09-08 18:43:17,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleOrderManage.CreateOrEditSaleOrderModalViewModel
+DEBUG 2019-09-08 18:43:17,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleFunnelManage.CreateOrEditSaleFunnelModalViewModel
+DEBUG 2019-09-08 18:43:17,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ProductTypeManage.CreateOrEditProductTypeModalViewModel
+DEBUG 2019-09-08 18:43:17,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.IndentManage.CreateOrEditIndentModalViewModel
+DEBUG 2019-09-08 18:43:17,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.DistrictManage.CreateOrEditDistrictModalViewModel
+DEBUG 2019-09-08 18:43:17,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ClientTypeManage.CreateOrEditClientTypeModalViewModel
+DEBUG 2019-09-08 18:43:17,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-09-08 18:43:19,506 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 18:43:19,582 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 18:43:19,614 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-09-08 18:43:19,617 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-09-08 18:43:19,621 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-09-08 18:43:19,625 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleOrders.ISaleOrderAppService' with service name 'app/saleOrder'.
+DEBUG 2019-09-08 18:43:19,631 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleFunnels.ISaleFunnelAppService' with service name 'app/saleFunnel'.
+DEBUG 2019-09-08 18:43:19,635 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ProductTypes.IProductTypeAppService' with service name 'app/productType'.
+DEBUG 2019-09-08 18:43:19,640 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-09-08 18:43:19,644 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-09-08 18:43:19,649 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-09-08 18:43:19,653 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-09-08 18:43:19,657 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-09-08 18:43:19,661 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-09-08 18:43:19,666 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-09-08 18:43:19,710 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-09-08 18:43:19,715 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-09-08 18:43:19,719 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-09-08 18:43:19,724 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-09-08 18:43:19,728 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-09-08 18:43:19,735 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-09-08 18:43:19,739 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-09-08 18:43:19,743 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-09-08 18:43:19,749 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-09-08 18:43:19,755 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-09-08 18:43:19,759 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2019-09-08 18:43:19,765 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Indents.IIndentAppService' with service name 'app/indent'.
+DEBUG 2019-09-08 18:43:19,769 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Districts.IDistrictAppService' with service name 'app/district'.
+DEBUG 2019-09-08 18:43:19,773 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-09-08 18:43:19,777 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ClientTypes.IClientTypeAppService' with service name 'app/clientType'.
+WARN  2019-09-08 18:43:55,067 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'SaleFunnel' in localization source 'PF'!
+WARN  2019-09-08 18:43:55,078 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'Indent' in localization source 'PF'!
+WARN  2019-09-08 18:43:55,089 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'ChartData' in localization source 'PF'!
+DEBUG 2019-09-08 18:44:25,701 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"36a180b6-0d25-4d9f-8786-ff62e2a8b74a","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T18:44:25.6778416+08:00","Properties":{}}
+DEBUG 2019-09-08 18:44:26,410 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 36a180b6-0d25-4d9f-8786-ff62e2a8b74a
+DEBUG 2019-09-08 18:44:50,334 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 36a180b6-0d25-4d9f-8786-ff62e2a8b74a
+DEBUG 2019-09-08 18:44:57,353 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2c98eaec-6ac6-409b-8d5c-584c4513ddac","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T18:44:57.3376524+08:00","Properties":{}}
+DEBUG 2019-09-08 18:44:57,414 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2c98eaec-6ac6-409b-8d5c-584c4513ddac
+WARN  2019-09-08 18:45:12,887 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 18:45:41,267 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2c98eaec-6ac6-409b-8d5c-584c4513ddac
+DEBUG 2019-09-08 18:45:48,333 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d7e718f9-a8dc-47e7-bd5d-e9eedcd3d4e0","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T18:45:48.3205684+08:00","Properties":{}}
+DEBUG 2019-09-08 18:45:48,439 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d7e718f9-a8dc-47e7-bd5d-e9eedcd3d4e0
+WARN  2019-09-08 18:45:55,201 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 18:46:22,544 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d7e718f9-a8dc-47e7-bd5d-e9eedcd3d4e0
+DEBUG 2019-09-08 18:46:29,421 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"fbbd5096-f53a-4e27-8da1-ef35afb965ab","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T18:46:29.4069185+08:00","Properties":{}}
+DEBUG 2019-09-08 18:46:29,646 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: fbbd5096-f53a-4e27-8da1-ef35afb965ab
+WARN  2019-09-08 18:46:34,189 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 18:46:46,521 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 18:46:55,863 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 18:47:13,579 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 18:47:50,945 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: fbbd5096-f53a-4e27-8da1-ef35afb965ab
+DEBUG 2019-09-08 18:47:57,891 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"06302406-702c-4f3a-a3cb-72162a087249","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T18:47:57.8619778+08:00","Properties":{}}
+DEBUG 2019-09-08 18:47:57,972 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 06302406-702c-4f3a-a3cb-72162a087249
+WARN  2019-09-08 18:48:00,993 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 18:48:11,708 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 19:02:08,807 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 06302406-702c-4f3a-a3cb-72162a087249
+DEBUG 2019-09-08 19:02:15,506 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4ac776e7-8bb1-4b56-9ec7-5ba39b30ab3f","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T19:02:15.4950316+08:00","Properties":{}}
+DEBUG 2019-09-08 19:02:15,703 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4ac776e7-8bb1-4b56-9ec7-5ba39b30ab3f
+WARN  2019-09-08 19:02:20,800 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 19:11:03,072 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4ac776e7-8bb1-4b56-9ec7-5ba39b30ab3f
+DEBUG 2019-09-08 19:11:11,480 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"835b684e-4a42-4223-9e3a-2d269ce02204","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T19:11:11.4676875+08:00","Properties":{}}
+DEBUG 2019-09-08 19:11:11,656 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 835b684e-4a42-4223-9e3a-2d269ce02204
+WARN  2019-09-08 19:11:43,936 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 19:27:37,840 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 835b684e-4a42-4223-9e3a-2d269ce02204
+DEBUG 2019-09-08 19:27:45,336 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"afcf9a50-bcb5-477a-b77b-35b1277ed88f","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T19:27:45.3175324+08:00","Properties":{}}
+DEBUG 2019-09-08 19:27:45,558 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: afcf9a50-bcb5-477a-b77b-35b1277ed88f
+DEBUG 2019-09-08 19:28:21,979 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: afcf9a50-bcb5-477a-b77b-35b1277ed88f
+DEBUG 2019-09-08 19:28:28,621 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5a62b4fc-f601-4e0b-8381-e34f205cd52d","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T19:28:28.6020082+08:00","Properties":{}}
+DEBUG 2019-09-08 19:28:28,865 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5a62b4fc-f601-4e0b-8381-e34f205cd52d
+DEBUG 2019-09-08 19:28:46,166 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5a62b4fc-f601-4e0b-8381-e34f205cd52d
+DEBUG 2019-09-08 19:28:52,330 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4a7d11c9-9716-4cbc-8521-dda7360d6940","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T19:28:52.3153645+08:00","Properties":{}}
+DEBUG 2019-09-08 19:28:52,393 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4a7d11c9-9716-4cbc-8521-dda7360d6940
+DEBUG 2019-09-08 20:11:25,047 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-08 20:11:25,121 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-09-08 20:11:25,177 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.Web.PFWebModule, LY.PF.Web, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,182 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,182 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFDataModule, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFCoreModule, LY.PF.Core, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFApplicationModule, LY.PF.Application, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.WebApi.PFWebApiModule, LY.PF.WebApi, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:25,211 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-09-08 20:11:26,656 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:11:26,657 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:11:26,657 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:11:26,658 [1    ] o.Configuration.LanguageManagementConfig - Converted PF (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:11:28,617 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LY.PF.EntityFramework.PFDbContext, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:11:45,744 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-08 20:11:46,029 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-08 20:11:46,046 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-08 20:11:46,090 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-08 20:11:46,179 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PF
+DEBUG 2019-09-08 20:11:46,457 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-08 20:11:50,230 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 20:11:50,737 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 53 classes define auto mapping attributes
+DEBUG 2019-09-08 20:11:50,738 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Cache.FriendCacheItem
+DEBUG 2019-09-08 20:11:50,748 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-08 20:11:50,748 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-08 20:11:50,748 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderEditDto
+DEBUG 2019-09-08 20:11:50,749 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderListDto
+DEBUG 2019-09-08 20:11:50,749 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelEditDto
+DEBUG 2019-09-08 20:11:50,749 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelListDto
+DEBUG 2019-09-08 20:11:50,749 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeEditDto
+DEBUG 2019-09-08 20:11:50,749 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeListDto
+DEBUG 2019-09-08 20:11:50,749 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-09-08 20:11:50,750 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-09-08 20:11:50,750 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-09-08 20:11:50,750 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-09-08 20:11:50,750 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-09-08 20:11:50,750 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-09-08 20:11:50,750 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-09-08 20:11:50,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Dto.FriendDto
+DEBUG 2019-09-08 20:11:50,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionEditDto
+DEBUG 2019-09-08 20:11:50,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.FlatFeatureDto
+DEBUG 2019-09-08 20:11:50,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionListDto
+DEBUG 2019-09-08 20:11:50,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatMessageDto
+DEBUG 2019-09-08 20:11:50,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserDto
+DEBUG 2019-09-08 20:11:50,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-09-08 20:11:50,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-09-08 20:11:50,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-09-08 20:11:50,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto
+DEBUG 2019-09-08 20:11:50,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-09-08 20:11:50,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-09-08 20:11:50,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-09-08 20:11:50,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-09-08 20:11:50,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Auditing.Dto.AuditLogListDto
+DEBUG 2019-09-08 20:11:50,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentEditDto
+DEBUG 2019-09-08 20:11:50,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentListDto
+DEBUG 2019-09-08 20:11:50,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictEditDto
+DEBUG 2019-09-08 20:11:50,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictListDto
+DEBUG 2019-09-08 20:11:50,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeEditDto
+DEBUG 2019-09-08 20:11:50,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeListDto
+DEBUG 2019-09-08 20:11:50,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-09-08 20:11:50,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-09-08 20:11:50,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-09-08 20:11:50,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-09-08 20:11:50,755 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-09-08 20:11:50,755 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-09-08 20:11:50,755 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-09-08 20:11:50,755 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-09-08 20:11:50,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-09-08 20:11:50,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleOrderManage.CreateOrEditSaleOrderModalViewModel
+DEBUG 2019-09-08 20:11:50,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleFunnelManage.CreateOrEditSaleFunnelModalViewModel
+DEBUG 2019-09-08 20:11:50,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ProductTypeManage.CreateOrEditProductTypeModalViewModel
+DEBUG 2019-09-08 20:11:50,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.IndentManage.CreateOrEditIndentModalViewModel
+DEBUG 2019-09-08 20:11:50,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.DistrictManage.CreateOrEditDistrictModalViewModel
+DEBUG 2019-09-08 20:11:50,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ClientTypeManage.CreateOrEditClientTypeModalViewModel
+DEBUG 2019-09-08 20:11:50,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-09-08 20:11:53,105 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 20:11:53,205 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 20:11:53,245 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-09-08 20:11:53,249 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-09-08 20:11:53,253 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-09-08 20:11:53,258 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleOrders.ISaleOrderAppService' with service name 'app/saleOrder'.
+DEBUG 2019-09-08 20:11:53,262 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleFunnels.ISaleFunnelAppService' with service name 'app/saleFunnel'.
+DEBUG 2019-09-08 20:11:53,266 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ProductTypes.IProductTypeAppService' with service name 'app/productType'.
+DEBUG 2019-09-08 20:11:53,270 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-09-08 20:11:53,275 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-09-08 20:11:53,279 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-09-08 20:11:53,283 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-09-08 20:11:53,287 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-09-08 20:11:53,306 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-09-08 20:11:53,311 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-09-08 20:11:53,314 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-09-08 20:11:53,318 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-09-08 20:11:53,322 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-09-08 20:11:53,329 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-09-08 20:11:53,333 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-09-08 20:11:53,337 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-09-08 20:11:53,347 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-09-08 20:11:53,362 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-09-08 20:11:53,365 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-09-08 20:11:53,369 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-09-08 20:11:53,373 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2019-09-08 20:11:53,378 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Indents.IIndentAppService' with service name 'app/indent'.
+DEBUG 2019-09-08 20:11:53,382 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Districts.IDistrictAppService' with service name 'app/district'.
+DEBUG 2019-09-08 20:11:53,385 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-09-08 20:11:53,391 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ClientTypes.IClientTypeAppService' with service name 'app/clientType'.
+WARN  2019-09-08 20:12:37,697 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'SaleFunnel' in localization source 'PF'!
+WARN  2019-09-08 20:12:37,711 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'Indent' in localization source 'PF'!
+WARN  2019-09-08 20:12:37,721 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'ChartData' in localization source 'PF'!
+DEBUG 2019-09-08 20:13:30,303 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6a496374-7f5c-4a13-a9cd-974ea46bd909","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:13:30.2705348+08:00","Properties":{}}
+DEBUG 2019-09-08 20:13:30,996 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6a496374-7f5c-4a13-a9cd-974ea46bd909
+DEBUG 2019-09-08 20:13:41,153 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6a496374-7f5c-4a13-a9cd-974ea46bd909
+DEBUG 2019-09-08 20:13:47,852 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3e585a94-cd66-40b9-bd2b-814441a2105a","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:13:47.8385396+08:00","Properties":{}}
+DEBUG 2019-09-08 20:13:48,074 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3e585a94-cd66-40b9-bd2b-814441a2105a
+WARN  2019-09-08 20:13:57,914 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 20:15:45,189 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3e585a94-cd66-40b9-bd2b-814441a2105a","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:13:47.8385396+08:00","Properties":{}}
+DEBUG 2019-09-08 20:15:45,217 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3e585a94-cd66-40b9-bd2b-814441a2105a","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:13:47.8385396+08:00","Properties":{}}
+DEBUG 2019-09-08 20:16:03,816 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3e585a94-cd66-40b9-bd2b-814441a2105a","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:13:47.8385396+08:00","Properties":{}}
+DEBUG 2019-09-08 20:16:09,524 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3e585a94-cd66-40b9-bd2b-814441a2105a","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:13:47.8385396+08:00","Properties":{}}
+DEBUG 2019-09-08 20:16:09,613 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3e585a94-cd66-40b9-bd2b-814441a2105a","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:13:47.8385396+08:00","Properties":{}}
+DEBUG 2019-09-08 20:16:09,767 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3e585a94-cd66-40b9-bd2b-814441a2105a","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:13:47.8385396+08:00","Properties":{}}
+WARN  2019-09-08 20:16:09,973 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 20:16:10,063 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d1ac38fa-8e7e-4492-9400-94f2e90a0338","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:16:10.0496736+08:00","Properties":{}}
+DEBUG 2019-09-08 20:16:49,637 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3e585a94-cd66-40b9-bd2b-814441a2105a
+DEBUG 2019-09-08 20:19:59,790 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d1ac38fa-8e7e-4492-9400-94f2e90a0338
+DEBUG 2019-09-08 20:20:02,080 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"bdac6bc5-4879-4b80-82a0-35df9a86e795","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:20:01.7249247+08:00","Properties":{}}
+WARN  2019-09-08 20:20:20,110 [38   ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.InvalidOperationException: 无法从服务器获取服务器的分布式事务协调程序的地址。服务器上是否已启用 DTC?
+   在 System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__14_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.InvalidOperationException: 无法从服务器获取服务器的分布式事务协调程序的地址。服务器上是否已启用 DTC?
+   在 System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   在 System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__14_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2019-09-08 20:27:56,357 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-08 20:28:04,471 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-09-08 20:28:04,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.Web.PFWebModule, LY.PF.Web, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFDataModule, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,551 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFCoreModule, LY.PF.Core, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,556 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,556 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFApplicationModule, LY.PF.Application, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,557 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.WebApi.PFWebApiModule, LY.PF.WebApi, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,558 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,559 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,559 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,560 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:04,599 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-09-08 20:28:11,806 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:28:11,806 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:28:11,806 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:28:11,806 [1    ] o.Configuration.LanguageManagementConfig - Converted PF (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:28:15,818 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LY.PF.EntityFramework.PFDbContext, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:28:23,097 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-08 20:28:23,379 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-08 20:28:23,399 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-08 20:28:23,441 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-08 20:28:23,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PF
+DEBUG 2019-09-08 20:28:23,960 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-08 20:28:29,902 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 20:28:31,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 53 classes define auto mapping attributes
+DEBUG 2019-09-08 20:28:31,271 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Cache.FriendCacheItem
+DEBUG 2019-09-08 20:28:31,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-08 20:28:31,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-08 20:28:31,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderEditDto
+DEBUG 2019-09-08 20:28:31,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderListDto
+DEBUG 2019-09-08 20:28:31,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelEditDto
+DEBUG 2019-09-08 20:28:31,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelListDto
+DEBUG 2019-09-08 20:28:31,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeEditDto
+DEBUG 2019-09-08 20:28:31,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeListDto
+DEBUG 2019-09-08 20:28:31,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-09-08 20:28:31,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-09-08 20:28:31,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-09-08 20:28:31,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-09-08 20:28:31,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-09-08 20:28:31,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-09-08 20:28:31,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-09-08 20:28:31,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Dto.FriendDto
+DEBUG 2019-09-08 20:28:31,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionEditDto
+DEBUG 2019-09-08 20:28:31,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.FlatFeatureDto
+DEBUG 2019-09-08 20:28:31,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionListDto
+DEBUG 2019-09-08 20:28:31,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatMessageDto
+DEBUG 2019-09-08 20:28:31,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserDto
+DEBUG 2019-09-08 20:28:31,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-09-08 20:28:31,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-09-08 20:28:31,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-09-08 20:28:31,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto
+DEBUG 2019-09-08 20:28:31,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-09-08 20:28:31,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-09-08 20:28:31,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-09-08 20:28:31,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-09-08 20:28:31,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Auditing.Dto.AuditLogListDto
+DEBUG 2019-09-08 20:28:31,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentEditDto
+DEBUG 2019-09-08 20:28:31,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentListDto
+DEBUG 2019-09-08 20:28:31,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictEditDto
+DEBUG 2019-09-08 20:28:31,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictListDto
+DEBUG 2019-09-08 20:28:31,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeEditDto
+DEBUG 2019-09-08 20:28:31,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeListDto
+DEBUG 2019-09-08 20:28:31,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-09-08 20:28:31,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-09-08 20:28:31,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-09-08 20:28:31,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-09-08 20:28:31,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-09-08 20:28:31,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-09-08 20:28:31,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-09-08 20:28:31,290 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-09-08 20:28:31,291 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-09-08 20:28:31,292 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleOrderManage.CreateOrEditSaleOrderModalViewModel
+DEBUG 2019-09-08 20:28:31,292 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleFunnelManage.CreateOrEditSaleFunnelModalViewModel
+DEBUG 2019-09-08 20:28:31,292 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ProductTypeManage.CreateOrEditProductTypeModalViewModel
+DEBUG 2019-09-08 20:28:31,292 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.IndentManage.CreateOrEditIndentModalViewModel
+DEBUG 2019-09-08 20:28:31,292 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.DistrictManage.CreateOrEditDistrictModalViewModel
+DEBUG 2019-09-08 20:28:31,292 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ClientTypeManage.CreateOrEditClientTypeModalViewModel
+DEBUG 2019-09-08 20:28:31,292 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-09-08 20:28:34,423 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 20:28:34,776 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 20:28:34,870 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-09-08 20:28:34,874 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-09-08 20:28:34,878 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-09-08 20:28:34,885 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleOrders.ISaleOrderAppService' with service name 'app/saleOrder'.
+DEBUG 2019-09-08 20:28:34,889 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleFunnels.ISaleFunnelAppService' with service name 'app/saleFunnel'.
+DEBUG 2019-09-08 20:28:34,893 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ProductTypes.IProductTypeAppService' with service name 'app/productType'.
+DEBUG 2019-09-08 20:28:34,897 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-09-08 20:28:34,909 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-09-08 20:28:34,913 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-09-08 20:28:34,932 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-09-08 20:28:34,951 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-09-08 20:28:34,956 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-09-08 20:28:34,965 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-09-08 20:28:34,974 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-09-08 20:28:34,978 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-09-08 20:28:34,985 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-09-08 20:28:34,989 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-09-08 20:28:34,994 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-09-08 20:28:35,011 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-09-08 20:28:35,023 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-09-08 20:28:35,037 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-09-08 20:28:35,049 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-09-08 20:28:35,054 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-09-08 20:28:35,058 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2019-09-08 20:28:35,063 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Indents.IIndentAppService' with service name 'app/indent'.
+DEBUG 2019-09-08 20:28:35,068 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Districts.IDistrictAppService' with service name 'app/district'.
+DEBUG 2019-09-08 20:28:35,074 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-09-08 20:28:35,080 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ClientTypes.IClientTypeAppService' with service name 'app/clientType'.
+WARN  2019-09-08 20:29:28,306 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'SaleFunnel' in localization source 'PF'!
+WARN  2019-09-08 20:29:28,319 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Indent' in localization source 'PF'!
+WARN  2019-09-08 20:29:28,330 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'ChartData' in localization source 'PF'!
+DEBUG 2019-09-08 20:30:47,717 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c412533e-9b79-455c-af40-9a3d516128f1","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:30:47.6968722+08:00","Properties":{}}
+DEBUG 2019-09-08 20:30:49,489 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c412533e-9b79-455c-af40-9a3d516128f1
+DEBUG 2019-09-08 20:30:55,467 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c412533e-9b79-455c-af40-9a3d516128f1
+DEBUG 2019-09-08 20:31:10,167 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"015565f1-8c1a-4535-8d6a-430f51ab76d3","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:31:10.1501564+08:00","Properties":{}}
+DEBUG 2019-09-08 20:31:10,397 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 015565f1-8c1a-4535-8d6a-430f51ab76d3
+DEBUG 2019-09-08 20:32:52,475 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"015565f1-8c1a-4535-8d6a-430f51ab76d3","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:31:10.1501564+08:00","Properties":{}}
+WARN  2019-09-08 20:32:52,747 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 20:32:57,540 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5fe174d9-5af5-4693-9d38-dba7c053cf78","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:32:57.526298+08:00","Properties":{}}
+WARN  2019-09-08 20:33:06,926 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 20:33:15,474 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 20:36:13,405 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 015565f1-8c1a-4535-8d6a-430f51ab76d3
+DEBUG 2019-09-08 20:36:13,437 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5fe174d9-5af5-4693-9d38-dba7c053cf78
+DEBUG 2019-09-08 20:36:17,695 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"5fe174d9-5af5-4693-9d38-dba7c053cf78","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:36:17.6827463+08:00","Properties":{}}
+DEBUG 2019-09-08 20:36:17,736 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"5fe174d9-5af5-4693-9d38-dba7c053cf78","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:36:17.6907467+08:00","Properties":{}}
+DEBUG 2019-09-08 20:36:17,738 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"5fe174d9-5af5-4693-9d38-dba7c053cf78","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:36:17.6907467+08:00","Properties":{}}
+DEBUG 2019-09-08 20:36:17,740 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"5fe174d9-5af5-4693-9d38-dba7c053cf78","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:36:17.6827463+08:00","Properties":{}}
+DEBUG 2019-09-08 20:36:17,748 [36   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"5fe174d9-5af5-4693-9d38-dba7c053cf78","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:36:17.6907467+08:00","Properties":{}}
+DEBUG 2019-09-08 20:36:17,749 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"5fe174d9-5af5-4693-9d38-dba7c053cf78","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:36:17.7377494+08:00","Properties":{}}
+WARN  2019-09-08 20:36:17,966 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+DEBUG 2019-09-08 20:36:23,614 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5c937af8-a108-4107-a86d-8ad9e1aa965d","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:36:23.5940844+08:00","Properties":{}}
+DEBUG 2019-09-08 20:39:47,667 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-09-08 20:39:47,706 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-09-08 20:39:47,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.Web.PFWebModule, LY.PF.Web, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,741 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFDataModule, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,741 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,742 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,743 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFCoreModule, LY.PF.Core, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.PFApplicationModule, LY.PF.Application, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LY.PF.WebApi.PFWebApiModule, LY.PF.WebApi, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,749 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:47,764 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-09-08 20:39:48,611 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:39:48,611 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:39:48,611 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:39:48,611 [1    ] o.Configuration.LanguageManagementConfig - Converted PF (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-09-08 20:39:49,980 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: LY.PF.EntityFramework.PFDbContext, LY.PF.EntityFramework, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-09-08 20:39:58,605 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-09-08 20:39:58,750 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-09-08 20:39:58,766 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-09-08 20:39:58,811 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-09-08 20:39:58,888 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PF
+DEBUG 2019-09-08 20:39:59,131 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-09-08 20:40:02,303 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 20:40:02,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 53 classes define auto mapping attributes
+DEBUG 2019-09-08 20:40:02,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Cache.FriendCacheItem
+DEBUG 2019-09-08 20:40:02,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-09-08 20:40:02,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-09-08 20:40:02,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderEditDto
+DEBUG 2019-09-08 20:40:02,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleOrders.Dtos.SaleOrderListDto
+DEBUG 2019-09-08 20:40:02,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelEditDto
+DEBUG 2019-09-08 20:40:02,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.SaleFunnels.Dtos.SaleFunnelListDto
+DEBUG 2019-09-08 20:40:02,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeEditDto
+DEBUG 2019-09-08 20:40:02,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ProductTypes.Dtos.ProductTypeListDto
+DEBUG 2019-09-08 20:40:02,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-09-08 20:40:02,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-09-08 20:40:02,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-09-08 20:40:02,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-09-08 20:40:02,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-09-08 20:40:02,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-09-08 20:40:02,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-09-08 20:40:02,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Friendships.Dto.FriendDto
+DEBUG 2019-09-08 20:40:02,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionEditDto
+DEBUG 2019-09-08 20:40:02,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.FlatFeatureDto
+DEBUG 2019-09-08 20:40:02,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Editions.Dto.EditionListDto
+DEBUG 2019-09-08 20:40:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatMessageDto
+DEBUG 2019-09-08 20:40:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserDto
+DEBUG 2019-09-08 20:40:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-09-08 20:40:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-09-08 20:40:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-09-08 20:40:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto
+DEBUG 2019-09-08 20:40:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-09-08 20:40:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-09-08 20:40:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-09-08 20:40:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-09-08 20:40:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Auditing.Dto.AuditLogListDto
+DEBUG 2019-09-08 20:40:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentEditDto
+DEBUG 2019-09-08 20:40:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Indents.Dtos.IndentListDto
+DEBUG 2019-09-08 20:40:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictEditDto
+DEBUG 2019-09-08 20:40:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Districts.Dtos.DistrictListDto
+DEBUG 2019-09-08 20:40:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeEditDto
+DEBUG 2019-09-08 20:40:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.ClientTypes.Dtos.ClientTypeListDto
+DEBUG 2019-09-08 20:40:02,825 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-09-08 20:40:02,825 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-09-08 20:40:02,825 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-09-08 20:40:02,825 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-09-08 20:40:02,825 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-09-08 20:40:02,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-09-08 20:40:02,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-09-08 20:40:02,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-09-08 20:40:02,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-09-08 20:40:02,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleOrderManage.CreateOrEditSaleOrderModalViewModel
+DEBUG 2019-09-08 20:40:02,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.SaleFunnelManage.CreateOrEditSaleFunnelModalViewModel
+DEBUG 2019-09-08 20:40:02,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ProductTypeManage.CreateOrEditProductTypeModalViewModel
+DEBUG 2019-09-08 20:40:02,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.IndentManage.CreateOrEditIndentModalViewModel
+DEBUG 2019-09-08 20:40:02,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.DistrictManage.CreateOrEditDistrictModalViewModel
+DEBUG 2019-09-08 20:40:02,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Areas.Mpa.Models.ClientTypeManage.CreateOrEditClientTypeModalViewModel
+DEBUG 2019-09-08 20:40:02,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LY.PF.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-09-08 20:40:04,597 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 20:40:04,674 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-09-08 20:40:04,707 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-09-08 20:40:04,714 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-09-08 20:40:04,718 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-09-08 20:40:04,723 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleOrders.ISaleOrderAppService' with service name 'app/saleOrder'.
+DEBUG 2019-09-08 20:40:04,728 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.SaleFunnels.ISaleFunnelAppService' with service name 'app/saleFunnel'.
+DEBUG 2019-09-08 20:40:04,732 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ProductTypes.IProductTypeAppService' with service name 'app/productType'.
+DEBUG 2019-09-08 20:40:04,736 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-09-08 20:40:04,740 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-09-08 20:40:04,746 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-09-08 20:40:04,751 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-09-08 20:40:04,754 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-09-08 20:40:04,760 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-09-08 20:40:04,763 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-09-08 20:40:04,767 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-09-08 20:40:04,772 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-09-08 20:40:04,778 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-09-08 20:40:04,784 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-09-08 20:40:04,788 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-09-08 20:40:04,794 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-09-08 20:40:04,798 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-09-08 20:40:04,802 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-09-08 20:40:04,806 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-09-08 20:40:04,812 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-09-08 20:40:04,826 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2019-09-08 20:40:04,831 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Indents.IIndentAppService' with service name 'app/indent'.
+DEBUG 2019-09-08 20:40:04,835 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Districts.IDistrictAppService' with service name 'app/district'.
+DEBUG 2019-09-08 20:40:04,842 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-09-08 20:40:04,846 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'LY.PF.ClientTypes.IClientTypeAppService' with service name 'app/clientType'.
+WARN  2019-09-08 20:40:42,867 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'SaleFunnel' in localization source 'PF'!
+WARN  2019-09-08 20:40:42,881 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Indent' in localization source 'PF'!
+WARN  2019-09-08 20:40:42,891 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'ChartData' in localization source 'PF'!
+WARN  2019-09-08 20:41:25,759 [12   ] ity.AntiForgery.AbpMvcAntiForgeryManager - The provided anti-forgery token was meant for a different claims-based user than the current user.
+WARN  2019-09-08 20:41:25,760 [12   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2019-09-08 20:41:25,761 [12   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:6234/?returnUrl=/Application/Index
+DEBUG 2019-09-08 20:41:41,290 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9ea1809b-79ea-46f2-aec6-412377e79243","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:41:41.2672543+08:00","Properties":{}}
+DEBUG 2019-09-08 20:41:42,054 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9ea1809b-79ea-46f2-aec6-412377e79243
+DEBUG 2019-09-08 20:41:51,506 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9ea1809b-79ea-46f2-aec6-412377e79243
+DEBUG 2019-09-08 20:42:02,056 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6bfc0db8-718f-4245-9dae-28f1b5350a36","IpAddress":"192.168.124.8","TenantId":1,"UserId":2,"ConnectTime":"2019-09-08T20:42:02.0394424+08:00","Properties":{}}
+DEBUG 2019-09-08 20:42:02,123 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6bfc0db8-718f-4245-9dae-28f1b5350a36
+WARN  2019-09-08 20:42:39,067 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 20:42:55,155 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 20:43:08,320 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 20:44:26,690 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
+WARN  2019-09-08 20:44:39,197 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Id' in localization source 'PF'!
