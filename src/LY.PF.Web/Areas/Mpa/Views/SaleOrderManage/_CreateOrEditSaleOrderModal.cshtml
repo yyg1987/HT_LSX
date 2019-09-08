@@ -1,0 +1,160 @@
+﻿
+@using Abp.Extensions
+@using Abp.Application.Services.Dto
+@using LY.PF.Web.Areas.Mpa.Models.Common.Modals
+@using LY.PF.Web.Areas.Mpa.Models.SaleOrderManage
+
+@model CreateOrEditSaleOrderModalViewModel
+
+@* 初始化头部 *@
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(Model.IsEditMode ? (L("EditSaleOrder") + ": " + Model.SaleOrder.Id) : L("CreateSaleOrder")))
+
+
+<!--html代码区域-->
+<div class="modal-body">
+    <form name="saleOrderInformationsForm" role="form" novalidate class="form-validation">
+        <input type="hidden" name="Id" value="@Model.SaleOrder.Id" />
+        <div class="row">
+            <!--<div class="alert alert-info fs16 bold mt10">分节标题</div>-->
+
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">@L("Id")</label>
+                    <div class="col-sm-8">
+                        <input class="" type="hidden" id="Id" name="Id" value="@Model.SaleOrder.Id" />
+                        <span class="help-inline"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">@L("ProductName")</label>
+                    <div class="col-sm-8">
+                        <input class="form-control inline w300  maxlength-handler " type="text" id="ProductName" name="ProductName" maxlength="64" value="@Model.SaleOrder.ProductName" />
+                        <span class="help-inline"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">@L("ProductType")</label>
+                    <div class="col-sm-8">
+                        @Html.DropDownList("ProductType", Model.ProductTypes.Select(a => a.ToSelectListItem()), new
+                               {
+                                   @class = "form-control selectpicker",
+                                   data_live_search = "true",
+                                   id = "ProductTypeEdit"
+                               })
+                        <span class="help-inline"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label class="control-label col-sm-3">@L("ImageUrl")</label>
+                    <div class="col-sm-8">
+                        <input type="text" name="ImageUrl" id="ImageUrl" class="form-control" value="@Model.SaleOrder.ImageUrl"  />
+                        <span class="help-inline"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @*<div class="col-sm-6">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">@L("ScheduleNumber")</label>
+                    <div class="col-sm-8">
+                        <input class="form-control inline w300  maxlength-handler " type="text" id="ScheduleNumber" name="ScheduleNumber" value="@Model.SaleOrder.ScheduleNumber" />
+                        <span class="help-inline"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">@L("ActualNumber")</label>
+                    <div class="col-sm-8">
+                        <input class="form-control inline w300  maxlength-handler " type="text" id="ActualNumber" name="ActualNumber" value="@Model.SaleOrder.ActualNumber" />
+                        <span class="help-inline"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">@L("Price")</label>
+                    <div class="col-sm-8">
+                        <input class="form-control inline w300  maxlength-handler " type="text" id="Price" name="Price" value="@Model.SaleOrder.Price" />
+                        <span class="help-inline"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">@L("TotalPrice")</label>
+                    <div class="col-sm-8">
+                        <input class="form-control inline w300  maxlength-handler " type="text" id="TotalPrice" name="TotalPrice" value="@Model.SaleOrder.TotalPrice" />
+                        <span class="help-inline"></span>
+                    </div>
+                </div>
+            </div>*@
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-3 control-label">@L("Status")</label>
+                <div class="col-sm-8">
+                    <select id="Status" name="Status" class="form-control required">
+                        <option value="0">正常</option>
+                        <option value="1">禁用</option>
+                    </select>
+                    <span class="help-inline"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12">
+            <div class="form-group">
+                <label class="col-sm-3 colspan-xs-3 control-label">@L("Remark")</label>
+                <div class="col-sm-8 colspan-xs-8 clearfix">
+
+                    <textarea class="form-control input-xxlarge" rows="4" id="Remark" name="Remark" maxlength="512">@Model.SaleOrder.Remark</textarea>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-3 control-label">@L("CreateBy")</label>
+                <div class="col-sm-8">
+                    <input class="form-control inline w300  maxlength-handler " type="text" id="CreateBy" name="CreateBy" maxlength="32" value="@Model.SaleOrder.CreateBy" />
+                    <span class="help-inline"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-3 control-label">@L("CreateTime")</label>
+                <div class="col-sm-8">
+                    <input class="form-control date-picker inline w300 date-picker" type="text" id="CreateTime" name="CreateTime" value="@Model.SaleOrder.CreateTime.ToString()" />
+                    <span class="help-inline"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-3 control-label">@L("UpdateBy")</label>
+                <div class="col-sm-8">
+                    <input class="form-control inline w300  maxlength-handler " type="text" id="UpdateBy" name="UpdateBy" maxlength="32" value="@Model.SaleOrder.UpdateBy" />
+                    <span class="help-inline"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label class="col-sm-3 control-label">@L("UpdateTime")</label>
+                <div class="col-sm-8">
+                    <input class="form-control date-picker inline w300 date-picker" type="text" id="UpdateTime" name="UpdateTime" value="@Model.SaleOrder.UpdateTime.ToString()" />
+                    <span class="help-inline"></span>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+

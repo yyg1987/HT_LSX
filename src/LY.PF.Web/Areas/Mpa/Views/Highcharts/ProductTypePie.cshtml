@@ -1,0 +1,105 @@
+﻿@using Abp.Web.Mvc.Extensions
+@using LY.PF.Authorization
+@using LY.PF.Web.Navigation
+@{
+    ViewBag.CurrentPageName = PageNames.App.Chart.ProductTypePie;
+    ViewBag.Title = L("ProductTypePie");
+}
+
+
+@section Scripts
+   { 
+    <script src="~/Content/js/highcharts/highcharts.js"></script>
+    <script>
+        var chart=new Highcharts.Chart({
+
+            // Build the chart
+            chart: {
+                    renderTo: 'container',
+                    plotBackgroundColor: null,
+                    plotBorderWidth: null,
+                    plotShadow: false
+                },
+                title: {
+                    text: '产品类型分类分析'
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                plotOptions: {
+                    pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
+                        dataLabels: {
+                            enabled: true,
+                            color: '#000000',
+                            connectorColor: '#000000',
+                            format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                        },
+                        showInLegend: true
+                    }
+                },
+                series: [{
+                    type: 'pie',
+                    name: '份额：',
+                    data: [
+                        ['影像', 45.0],
+                        ['技工', 26.8],
+                        {
+                            name: '牙椅',
+                            y: 12.8,
+                            sliced: true,
+                            selected: true
+                        },
+                        ['手机', 8.5],
+                        ['教学', 6.2],
+                        ['其他设备', 0.7],
+
+                    ]
+                }]
+            });
+        $('#GetButton').click(function (e) {
+            var keyValue = $("#keyValue").val();
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: "/Mpa/Highcharts/GetProductTypePieData",
+                data: { keyValue: keyValue },
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    chart.series[0].setData(data)
+                    //data.forEach(function (_, i) { chart.series[i].setData(data[i].data) })
+                }, error: function (e) {
+                }
+            });
+        });
+
+        var keyValue = $("#keyValue").val();
+
+        $.ajax({
+            type: "GET",
+            url: "/Mpa/Highcharts/GetProductTypePieData",
+            data: { keyValue: keyValue },
+            dataType: "json",
+            async: false,
+            success: function (data) {
+                //data.forEach(function (_, i) { chart.series[i].setData(data[i].data) })
+                chart.series[0].setData(data)
+            }, error: function (e) {
+            }
+        });
+
+
+    </script>
+}
+
+<div class="input-group">
+    <input id="keyValue" class="form-control" placeholder="请输入年份" type="text">
+    <span class="input-group-btn">
+        <button id="GetButton" class="btn default" type="submit"><i class="icon-magnifier"></i></button>
+    </span>
+</div>
+
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+

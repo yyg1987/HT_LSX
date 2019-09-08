@@ -1,0 +1,133 @@
+﻿
+@using Abp.Extensions
+@using Abp.Application.Services.Dto
+@using LY.PF.Web.Areas.Mpa.Models.Common.Modals
+@using LY.PF.Web.Areas.Mpa.Models.DistrictManage
+
+@model CreateOrEditDistrictModalViewModel
+
+@* 初始化头部 *@
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(Model.IsEditMode ? (L("EditDistrict") + ": " + Model.District.DistrictName) : L("CreateDistrict")))
+
+<!--html代码区域-->
+<div class="modal-body">
+    <form name="districtInformationsForm"   role="form" novalidate class="form-validation">
+ <input type="hidden" name="Id" value="@Model.District.Id" />
+ <div class="row">
+            <!--<div class="alert alert-info fs16 bold mt10">分节标题</div>-->
+            
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">@L("Id")</label>
+                        <div class="col-sm-8">
+                            <input class="" type="hidden" id="Id" name="Id" value="@Model.District.Id" />
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">@L("DistrictName")</label>
+                        <div class="col-sm-8">
+                            <input class="form-control inline w300  maxlength-handler " type="text" id="DistrictName" name="DistrictName" maxlength="64" value="@Model.District.DistrictName" />
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group ">
+                        <label for="parentDistrictIdEdit">@L("ParentDistrictId")</label>
+                        @if (Model.IsEditMode)
+                        {
+                            @Html.DropDownList("ParentDistrictId", Model.ParentDistricts.Select(a => a.ToSelectListItem()), new
+                               {
+                                   @class = "form-control selectpicker",
+                                   data_live_search = "true",
+                                   disabled= "disabled",
+                                   id = "parentDistrictIdEdit"
+                               })
+                        }
+                        else
+                        {
+                            @Html.DropDownList("ParentDistrictId", Model.ParentDistricts.Select(a => a.ToSelectListItem()), new
+                                 {
+                                     @class = "form-control selectpicker",
+                                     data_live_search = "true",
+                                     id = "parentDistrictIdEdit"
+                                 })
+                        }                          
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">@L("IsValid")</label>
+                        <div class="col-sm-8">
+                            @*<input class="form-control inline w300  maxlength-handler " type="text" id="IsValid" name="IsValid" value="@Model.District.IsValid" />*@
+                            <select id="IsValid" name="IsValid" class="form-control required">
+                                <option value="true">正常</option>
+                                <option value="false">禁用</option>
+                            </select>
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">@L("Address")</label>
+                        <div class="col-sm-8">
+                            <input class="form-control inline w300  maxlength-handler " type="text" id="Address" name="Address" value="@Model.District.Address" />
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">@L("Remark")</label>
+                        <div class="col-sm-8">
+                            <input class="form-control inline w300  maxlength-handler " type="text" id="Remark" name="Remark" value="@Model.District.Remark" />
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">@L("CreateBy")</label>
+                        <div class="col-sm-8">
+                            <input class="form-control inline w300  maxlength-handler " type="text" id="CreateBy" name="CreateBy" value="@Model.District.CreateBy" />
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">@L("CreationTime")</label>
+                        <div class="col-sm-8">
+                            <input class="form-control inline w300  maxlength-handler " type="text" id="CreationTime" name="CreationTime" value="@Model.District.CreationTime" />
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">@L("UpdateBy")</label>
+                        <div class="col-sm-8">
+                            <input class="form-control inline w300  maxlength-handler " type="text" id="UpdateBy" name="UpdateBy" maxlength="32" value="@Model.District.UpdateBy" />
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">@L("UpdateTime")</label>
+                        <div class="col-sm-8">
+                            <input class="form-control date-picker inline w300 date-picker" type="text" id="UpdateTime" name="UpdateTime" value="@Model.District.UpdateTime.ToString()" />
+                            <span class="help-inline"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </form>
+</div>
+@Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")
