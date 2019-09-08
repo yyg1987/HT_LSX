@@ -89,7 +89,7 @@ namespace LY.PF.SaleFunnels
             var saleFunnelListDtos = saleFunnels.MapTo<List<SaleFunnelListDto>>();
             foreach (var item in saleFunnelListDtos)
             {
-                item.ClientName = _clientTypeRepository.FirstOrDefault(item.ClientType)==null?"": _clientTypeRepository.FirstOrDefault(item.ClientType).ClientTypeName;
+                item.ClientTypeName = _clientTypeRepository.FirstOrDefault(item.ClientType)==null?"": _clientTypeRepository.FirstOrDefault(item.ClientType).ClientTypeName;
                 item.ProductTypeName = _productTypeRepository.FirstOrDefault(item.ProductType).ProductTypeName;
                 item.DistrictName = _districtRepository.FirstOrDefault(item.District).DistrictName;
             }
@@ -207,6 +207,10 @@ namespace LY.PF.SaleFunnels
             entity.LastTime = entity.LastTime == Convert.ToDateTime("0001 / 1 / 1 0:00:00") ? DateTime.Now : entity.LastTime;
             entity.StageTime = entity.StageTime == Convert.ToDateTime("0001 / 1 / 1 0:00:00") ? DateTime.Now : entity.StageTime;
             entity.CreationTime = DateTime.Now;
+            entity.CreateBy = GetCurrentUser().UserName;
+            entity.UpdateBy = GetCurrentUser().UserName;
+
+            entity.UpdateTime = DateTime.Now;
             entity.SumPrice =entity.Price * entity.Number;
             //entity.CreateBy=user
             entity = await _saleFunnelRepository.InsertAsync(entity);

@@ -15,6 +15,7 @@ using LY.PF.Dto;
 using LY.PF.ProductTypes;
 using System.Web;
 using System.IO;
+using Abp.Extensions;
 
 namespace LY.PF.SaleOrders
 {
@@ -65,6 +66,8 @@ namespace LY.PF.SaleOrders
 
             var query = _saleOrderRepositoryAsNoTrack;
             //TODO:根据传入的参数添加过滤条件
+            query = query
+                .WhereIf(!input.FilterText.IsNullOrWhiteSpace(), item => item.ProductName.Contains(input.FilterText) || item.Remark.Contains(input.FilterText));
 
             var saleOrderCount = await query.CountAsync();
 
@@ -163,9 +166,10 @@ namespace LY.PF.SaleOrders
 
             var entity = input.MapTo<SaleOrder>();
             entity.CreateTime = DateTime.Now;
-            entity.Id = new Guid();
+            entity.Id = Guid.NewGuid(); ///new Guid();
             entity.CreateBy = GetCurrentUser().UserName;
-            entity.CreateTime = DateTime.Now;
+            entity.UpdateBy = GetCurrentUser().UserName;
+            entity.UpdateTime = DateTime.Now;
             entity = await _saleOrderRepository.InsertAsync(entity);
             return entity.MapTo<SaleOrderEditDto>();
         }
@@ -178,7 +182,12 @@ namespace LY.PF.SaleOrders
         {
             //TODO:更新前的逻辑判断，是否允许更新
             var entity = await _saleOrderRepository.GetAsync(input.Id.Value);
-            input.MapTo(entity);
+            // input.MapTo(entity);
+            entity.ProductName = input.ProductName;
+            entity.ProductType = input.ProductType;
+            entity.ProductModel = input.ProductModel;
+            entity.Status = input.Status;
+            entity.Remark = input.Remark;
 
             entity.UpdateTime = DateTime.Now;
             entity.UpdateBy = GetCurrentUser().UserName;

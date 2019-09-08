@@ -17,8 +17,8 @@ namespace LY.PF.Web
         protected override void Application_Start(object sender, EventArgs e)
         {
             //Use UTC clock. Remove this to use local time for your application.
-            Clock.Provider = ClockProviders.Utc;
-
+            //Clock.Provider = ClockProviders.Utc;
+            Clock.Provider = ClockProviders.Local;
             //Log4Net configuration
             AbpBootstrapper.IocManager.IocContainer
                 .AddFacility<LoggingFacility>(f => f.UseAbpLog4Net()

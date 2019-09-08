@@ -1,6 +1,4 @@
 ﻿
-
-
 (function () {
     $(function () {
 
@@ -14,16 +12,11 @@
 
         };
 
-
         var _createOrEditModal = new app.ModalManager({
             viewUrl: abp.appPath + 'Mpa/ProductTypeManage/CreateOrEditProductTypeModal',
             scriptUrl: abp.appPath + 'Areas/Mpa/Views/ProductTypeManage/_CreateOrEditProductTypeModal.js',
             modalClass: 'CreateOrEditProductTypeModal'
         });
-
-
-
-
 
         _$productTypesTable.jtable({
 
@@ -115,8 +108,6 @@
             }
 
         });
-
-
         //打开添加窗口SPA
         $('#CreateNewProductTypeButton').click(function () {
             //可选生成的对话框大小{size:'lg'}or{size:'sm'}
@@ -124,16 +115,10 @@
             _createOrEditModal.open();
         });
 
-
-
-
         //刷新表格信息
         $("#ButtonReload").click(function () {
             getProductTypes();
         });
-
-
-
 
         //模糊查询功能
         function getProductTypes(reload) {
@@ -145,7 +130,6 @@
                 });
             }
         }
-        //
         //删除当前productType实体
         function deleteProductType(productType) {
             abp.message.confirm(
@@ -162,9 +146,6 @@
                 }
             );
         }
-
-
-
         //导出为excel文档
         $('#ExportToExcelButton').click(function () {
             _productTypeService
@@ -185,7 +166,6 @@
         });
 
         getProductTypes();
-
 
     });
 })();

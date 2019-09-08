@@ -15,130 +15,145 @@
     <form name="indentInformationsForm"   role="form" novalidate class="form-validation">
  <input type="hidden" name="Id" value="@Model.Indent.Id" />
  <div class="row">
-            <!--<div class="alert alert-info fs16 bold mt10">分节标题</div>-->
-            
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("Id")</label>
-                        <div class="col-sm-8">
-                            <input class="" type="hidden" id="Id" name="Id" value="@Model.Indent.Id" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("ProductName")</label>
-                        <div class="col-sm-8">
-                            <input class="form-control inline w300  maxlength-handler " type="text" id="ProductName" name="ProductName" maxlength="64" value="@Model.Indent.ProductName" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("ProductType")</label>
-                        <div class="col-sm-8">
-                            <input class="form-control inline w300  maxlength-handler " type="text" id="ProductType" name="ProductType" value="@Model.Indent.ProductType" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("ScheduleNumber")</label>
-                        <div class="col-sm-8">
-                            <input class="form-control inline w300  maxlength-handler " type="text" id="ScheduleNumber" name="ScheduleNumber" value="@Model.Indent.ScheduleNumber" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("ActualNumber")</label>
-                        <div class="col-sm-8">
-                            <input class="form-control inline w300  maxlength-handler " type="text" id="ActualNumber" name="ActualNumber" value="@Model.Indent.ActualNumber" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("Price")</label>
-                        <div class="col-sm-8">
-                            <input class="form-control inline w300  maxlength-handler " type="text" id="Price" name="Price" value="@Model.Indent.Price" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("TotalPrice")</label>
-                        <div class="col-sm-8">
-                            <input class="form-control inline w300  maxlength-handler " type="text" id="TotalPrice" name="TotalPrice" value="@Model.Indent.TotalPrice" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("Status")</label>
-                        <div class="col-sm-8">
-                            <select id="Status" name="Status" class="form-control required">
-                                <option value="0">正常</option>
-                                <option value="1">禁用</option>
-                            </select>
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-sm-12">
-                    <div class="form-group">
-                        <label class="col-sm-3 colspan-xs-3 control-label">@L("Remark")</label>
-                        <div class="col-sm-8 colspan-xs-8 clearfix">
-                   
-         <textarea class="form-control input-xxlarge" rows="4" id="Remark" name="Remark" maxlength="512">@Model.Indent.Remark</textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("CreateBy")</label>
-                        <div class="col-sm-8">
-                            <input class="form-control inline w300  maxlength-handler " type="text" id="CreateBy" name="CreateBy" maxlength="32" value="@Model.Indent.CreateBy" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("CreateTime")</label>
-                        <div class="col-sm-8">
-                            <input class="form-control date-picker inline w300 date-picker" type="text" id="CreateTime" name="CreateTime" value="@Model.Indent.CreateTime.ToString()" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("UpdateBy")</label>
-                        <div class="col-sm-8">
-                            <input class="form-control inline w300  maxlength-handler " type="text" id="UpdateBy" name="UpdateBy" maxlength="32" value="@Model.Indent.UpdateBy" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("UpdateTime")</label>
-                        <div class="col-sm-8">
-                            <input class="form-control date-picker inline w300 date-picker" type="text" id="UpdateTime" name="UpdateTime" value="@Model.Indent.UpdateTime.ToString()" />
-                            <span class="help-inline"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+     <!--<div class="alert alert-info fs16 bold mt10">分节标题</div>-->
+
+     <div class="col-sm-12">
+         <div class="form-group hidden">
+             <label class="col-sm-3 control-label">@L("Id")</label>
+             <div class="col-sm-8">
+                 <input class="" type="hidden" id="Id" name="Id" value="@Model.Indent.Id" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+     <div class="col-sm-6">
+         <div class="form-group">
+             <label class="col-sm-3 control-label">@L("ProductName")</label>
+             <div class="col-sm-8">
+                 <input class="form-control  " type="text" id="ProductName" name="ProductName" maxlength="64" value="@Model.Indent.ProductName" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+     @*<div class="col-sm-6">
+         <div class="form-group">
+             <label class="col-sm-3 control-label">@L("ProductType")</label>
+             <div class="col-sm-8">
+                 <input class="form-control  " type="text" id="ProductType" name="ProductType" value="@Model.Indent.ProductType" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>*@
+     <div class="col-sm-6">
+         <div class="form-group">
+             <label class="col-sm-2 control-label">@L("ProductType")</label>
+             <div class="col-sm-8">
+                 @Html.DropDownList("ProductType", Model.ProductTypes.Select(a => a.ToSelectListItem()), new
+                {
+                    @class = "form-control selectpicker",
+                    data_live_search = "true",
+                    id = "ProductTypeEdit"
+                })
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+
+     <div class="col-sm-6">
+         <div class="form-group">
+             <label class="col-sm-3 control-label">@L("ScheduleNumber")</label>
+             <div class="col-sm-8">
+                 <input class="form-control  " type="number" id="ScheduleNumber" name="ScheduleNumber" min="0" max="9999999" value="@Model.Indent.ScheduleNumber" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+     <div class="col-sm-6">
+         <div class="form-group">
+             <label class="col-sm-3 control-label">@L("ActualNumber")</label>
+             <div class="col-sm-8">
+                 <input class="form-control" type="number" id="ActualNumber" name="ActualNumber" min="0" max="9999999" value="@Model.Indent.ActualNumber" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+     <div class="col-sm-6">
+         <div class="form-group">
+             <label class="col-sm-3 control-label">@L("Price")</label>
+             <div class="col-sm-8">
+                 <input class="form-control " type="number" id="Price" name="Price"  min="0.01" value="@Model.Indent.Price" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+     <div class="col-sm-6">
+         <div class="form-group">
+             <label class="col-sm-3 control-label">@L("TotalPrice")</label>
+             <div class="col-sm-8">
+                 <input class="form-control" type="number" id="TotalPrice" name="TotalPrice"  min="0.01" value="@Model.Indent.TotalPrice" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+     <div class="col-sm-6">
+         <div class="form-group">
+             <label class="col-sm-3 control-label">@L("Status")</label>
+             <div class="col-sm-8">
+                 <select id="Status" name="Status" class="form-control required">
+                     <option value="0">正常</option>
+                     <option value="1">禁用</option>
+                 </select>
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+
+     <div class="col-sm-12">
+         <div class="form-group">
+             <label class="col-sm-3 control-label">@L("Remark")</label>
+             <div class="col-sm-8  clearfix">
+
+                 <textarea class="form-control" rows="3" id="Remark" name="Remark" maxlength="512">@Model.Indent.Remark</textarea>
+             </div>
+         </div>
+     </div>
+     <div class="col-sm-6">
+         <div class="form-group hidden">
+             <label class="col-sm-3 control-label">@L("CreateBy")</label>
+             <div class="col-sm-8">
+                 <input class="form-control " type="text" id="CreateBy" name="CreateBy" maxlength="32" value="@Model.Indent.CreateBy" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+     <div class="col-sm-6">
+         <div class="form-group hidden">
+             <label class="col-sm-3 control-label">@L("CreateTime")</label>
+             <div class="col-sm-8">
+                 <input class="form-control" type="text" id="CreateTime" name="CreateTime" value="@Model.Indent.CreateTime.ToString()" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+     <div class="col-sm-6">
+         <div class="form-group hidden">
+             <label class="col-sm-3 control-label">@L("UpdateBy")</label>
+             <div class="col-sm-8">
+                 <input class="form-control" type="text" id="UpdateBy" name="UpdateBy" maxlength="32" value="@Model.Indent.UpdateBy" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+     <div class="col-sm-6">
+         <div class="form-group hidden">
+             <label class="col-sm-3 control-label">@L("UpdateTime")</label>
+             <div class="col-sm-8">
+                 <input class="form-control date-picker" type="text" id="UpdateTime" name="UpdateTime" value="@Model.Indent.UpdateTime.ToString()" />
+                 <span class="help-inline"></span>
+             </div>
+         </div>
+     </div>
+ </div>
     </form>
 </div>
 @Html.Partial("~/Areas/Mpa/Views/Common/Modals/_ModalFooterWithSaveAndCancel.cshtml")

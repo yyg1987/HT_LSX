@@ -83,7 +83,7 @@
                     display: function (data) {
                         var $span = $('<span></span>');
                         var pid = data.record.parentDistrictId;
-                        if (pid != 0) {
+                        if (pid !== 0) {
                             _districtService.getDistrictById({ id: pid, async: false }).done(function (result) {
                                 $span.append('<span class="label label-info" data-toggle="tooltip" >' + result.districtName + '</span>&nbsp;');
                             });

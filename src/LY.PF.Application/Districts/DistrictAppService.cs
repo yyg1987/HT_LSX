@@ -8,6 +8,7 @@ using Abp.Application.Services.Dto;
 using Abp.Authorization;
 using Abp.AutoMapper;
 using Abp.Domain.Repositories;
+using Abp.Extensions;
 using Abp.Linq.Extensions;
 using LY.PF.Districts.Authorization;
 using LY.PF.Districts.Dtos;
@@ -59,6 +60,8 @@ DistrictManage districtManage
 
             var query = _districtRepositoryAsNoTrack;
             //TODO:根据传入的参数添加过滤条件
+            query = query
+                .WhereIf(!input.FilterText.IsNullOrWhiteSpace(), item => item.DistrictName.Contains(input.FilterText) || item.Remark.Contains(input.FilterText));
 
             var districtCount = await query.CountAsync();
 
@@ -158,7 +161,9 @@ DistrictManage districtManage
             //TODO:更新前的逻辑判断，是否允许更新
             
             var entity = await _districtRepository.GetAsync(input.Id.Value);
+            input.ParentDistrictId= entity.ParentDistrictId;
             input.MapTo(entity);
+            //entity.ParentDistrictId = entity.ParentDistrictId;
             entity.UpdateTime = DateTime.Now;
             entity.UpdateBy = GetCurrentUser().UserName;
 

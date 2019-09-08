@@ -237,6 +237,7 @@
     <Compile Include="Districts\Exporting\IDistrictListExcelExporter.cs" />
     <Compile Include="Districts\IDistrictAppService.cs" />
     <Compile Include="Districts\Mappers\DistrictDtoMapper.cs" />
+    <Compile Include="ExceptionEventHandler.cs" />
     <Compile Include="Indents\Dtos\CreateOrUpdateIndentInput.cs" />
     <Compile Include="Indents\Dtos\GetIndentForEditOutput.cs" />
     <Compile Include="Indents\Dtos\GetIndentInput.cs" />

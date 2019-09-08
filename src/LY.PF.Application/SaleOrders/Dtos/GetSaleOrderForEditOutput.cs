@@ -16,10 +16,10 @@ namespace LY.PF.SaleOrders.Dtos
         /// </summary>
     public SaleOrderEditDto SaleOrder{get;set;}
     public List<ComboboxItemDto> ProductTypes { get; set; }
-        public GetSaleOrderForEditOutput()
-        {
-            ProductTypes = new List<ComboboxItemDto>();
-        }
+    public GetSaleOrderForEditOutput()
+    {
+        ProductTypes = new List<ComboboxItemDto>();
+    }
 
 
     }

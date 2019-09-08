@@ -17,27 +17,27 @@
  <div class="row">
             <!--<div class="alert alert-info fs16 bold mt10">分节标题</div>-->
             
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("Id")</label>
+                        <label class="col-sm-3 control-label hidden">@L("Id")</label>
                         <div class="col-sm-8">
                             <input class="" type="hidden" id="Id" name="Id" value="@Model.ProductType.Id" />
                             <span class="help-inline"></span>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("ProductTypeName")</label>
+                        <label class="col-sm-2 control-label">@L("ProductTypeName")</label>
                         <div class="col-sm-8">
                             <input class="form-control inline w300  maxlength-handler " type="text" id="ProductTypeName" name="ProductTypeName" maxlength="64" value="@Model.ProductType.ProductTypeName" />
                             <span class="help-inline"></span>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("IsValid")</label>
+                        <label class="col-sm-2 control-label">@L("IsValid")</label>
                         <div class="col-sm-8">
                             <select id="IsValid" name="IsValid" class="form-control required">
                                 <option value="true">正常</option>
@@ -47,26 +47,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <div class="form-group">
-                        <label class="col-sm-3 control-label">@L("Remark")</label>
+                        <label class="col-sm-2 control-label">@L("Remark")</label>
                         <div class="col-sm-8">
-                            <input class="form-control inline w300  maxlength-handler " type="text" id="Remark" name="Remark" value="@Model.ProductType.Remark" />
+                            <input class="form-control inline w300  maxlength-handler " type="text" id="Remark" maxlength="512" name="Remark" value="@Model.ProductType.Remark" />
                             <span class="help-inline"></span>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
+                <div class="col-sm-6" >
+                    <div class="form-group hidden">
                         <label class="col-sm-3 control-label">@L("CreateBy")</label>
                         <div class="col-sm-8">
-                            <input class="form-control inline w300  maxlength-handler " type="text" id="CreateBy" name="CreateBy" value="@Model.ProductType.CreateBy" />
+                            <input class="form-control inline w300  maxlength-handler " type="text" id="CreateBy" name="CreateBy" maxlength="32" value="@Model.ProductType.CreateBy" />
                             <span class="help-inline"></span>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="form-group">
+                    <div class="form-group hidden">
                         <label class="col-sm-3 control-label">@L("CreationTime")</label>
                         <div class="col-sm-8">
                             <input class="form-control inline w300  maxlength-handler " type="text" id="CreationTime" name="CreationTime" value="@Model.ProductType.CreationTime" />
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="form-group">
+                    <div class="form-group hidden">
                         <label class="col-sm-3 control-label">@L("UpdateBy")</label>
                         <div class="col-sm-8">
                             <input class="form-control inline w300  maxlength-handler " type="text" id="UpdateBy" name="UpdateBy" maxlength="32" value="@Model.ProductType.UpdateBy" />
@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <div class="form-group">
+                    <div class="form-group hidden">
                         <label class="col-sm-3 control-label">@L("UpdateTime")</label>
                         <div class="col-sm-8">
                             <input class="form-control date-picker inline w300 date-picker" type="text" id="UpdateTime" name="UpdateTime" value="@Model.ProductType.UpdateTime.ToString()" />

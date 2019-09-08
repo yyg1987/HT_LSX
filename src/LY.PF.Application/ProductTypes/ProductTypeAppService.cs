@@ -12,6 +12,7 @@ using Abp.Linq.Extensions;
 using LY.PF.ProductTypes.Authorization;
 using LY.PF.ProductTypes.Dtos;
 using LY.PF.Dto;
+using Abp.Extensions;
 
 namespace LY.PF.ProductTypes
 {
@@ -59,6 +60,8 @@ ProductTypeManage productTypeManage
 
             var query = _productTypeRepositoryAsNoTrack;
             //TODO:根据传入的参数添加过滤条件
+            query = query
+                .WhereIf(!input.FilterText.IsNullOrWhiteSpace(), item => item.ProductTypeName.Contains(input.FilterText) || item.Remark.Contains(input.FilterText));
 
             var productTypeCount = await query.CountAsync();
 

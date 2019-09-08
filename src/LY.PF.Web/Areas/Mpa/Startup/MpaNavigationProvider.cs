@@ -104,104 +104,106 @@ namespace LY.PF.Web.Areas.Mpa.Startup
                         )
                     )
                 )
-                //.AddItem(new MenuItemDefinition(
-                //SaleFunnelAppPermissions.SaleFunnel,
-                //L("SaleFunnel"),
-                //icon: "icon-grid"
-                //).AddItem(
-                //    new MenuItemDefinition(
-                //    ClientTypeAppPermissions.ClientType,
-                //    L("ClientType"),
-                //    "icon-star",
-                //    url: "Mpa/ClientTypeManage",
-                //    requiredPermissionName: ClientTypeAppPermissions.ClientType))
-                //    .AddItem(
-                //    new MenuItemDefinition(
-                //    DistrictAppPermissions.District,
-                //    L("District"),
-                //    "icon-star",
-                //    url: "Mpa/DistrictManage",
-                //    requiredPermissionName: DistrictAppPermissions.District))
-                //    .AddItem(
-                //    new MenuItemDefinition(
-                //    ProductTypeAppPermissions.ProductType,
-                //    L("ProductType"),
-                //    "icon-star",
-                //    url: "Mpa/ProductTypeManage",
-                //    requiredPermissionName: ProductTypeAppPermissions.ProductType))
-                //    .AddItem(
-                //    new MenuItemDefinition(
-                //    SaleOrderAppPermissions.SaleOrder,
-                //    L("SaleOrder"),
-                //    "icon-star",
-                //    url: "Mpa/SaleOrderManage",
-                //    requiredPermissionName: SaleOrderAppPermissions.SaleOrder))
-                //     .AddItem(
-                //    new MenuItemDefinition(
-                //    SaleFunnelAppPermissions.SaleFunnel,
-                //    L("SaleFunnel"),
-                //    "icon-star",
-                //    url: "Mpa/SaleFunnelManage",
-                //    requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel))
-                //    )
-                //.AddItem(new MenuItemDefinition(
-                //IndentAppPermissions.Indent,
-                //L("Indent"),
-                //icon: "icon-grid"
-                //).AddItem(
-                //    new MenuItemDefinition(
-                //    IndentAppPermissions.Indent,
-                //    L("Indent"),
-                //    "icon-star",
-                //    url: "Mpa/IndentManage",
-                //    requiredPermissionName: IndentAppPermissions.Indent)))
-                ////销售漏斗图表
-                //.AddItem(new MenuItemDefinition(
-                //    PageNames.App.Chart.ChartData,
-                //        L("ChartData"),
-                //        icon: "icon-grid"
-                //    ).AddItem(new MenuItemDefinition(
-                //        PageNames.App.Chart.HistogramByMonth,
-                //        L("HistogramByMonth"),
-                //        "icon-star",
-                //        url: "Mpa/Highcharts",
-                //        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
+                .AddItem(new MenuItemDefinition(
+                SaleFunnelAppPermissions.SaleFunnel,
+                L("SaleFunnel"),
+                icon: "icon-grid"
+                ).AddItem(
+                    new MenuItemDefinition(
+                    ClientTypeAppPermissions.ClientType,
+                    L("ClientType"),
+                    "icon-star",
+                    url: "Mpa/ClientTypeManage",
+                    requiredPermissionName: ClientTypeAppPermissions.ClientType))
+                    .AddItem(
+                    new MenuItemDefinition(
+                    DistrictAppPermissions.District,
+                    L("District"),
+                    "icon-star",
+                    url: "Mpa/DistrictManage",
+                    requiredPermissionName: DistrictAppPermissions.District))
+                    .AddItem(
+                    new MenuItemDefinition(
+                    ProductTypeAppPermissions.ProductType,
+                    L("ProductType"),
+                    "icon-star",
+                    url: "Mpa/ProductTypeManage",
+                    requiredPermissionName: ProductTypeAppPermissions.ProductType))
+                    .AddItem(
+                    new MenuItemDefinition(
+                    SaleOrderAppPermissions.SaleOrder,
+                    L("SaleOrder"),
+                    "icon-star",
+                    url: "Mpa/SaleOrderManage",
+                    requiredPermissionName: SaleOrderAppPermissions.SaleOrder))
+                     .AddItem(
+                    new MenuItemDefinition(
+                    SaleFunnelAppPermissions.SaleFunnel,
+                    L("SaleFunnel"),
+                    "icon-star",
+                    url: "Mpa/SaleFunnelManage",
+                    requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel))
+                    )
+                .AddItem(new MenuItemDefinition(
+                IndentAppPermissions.Indent,
+                L("Indent"),
+                icon: "icon-grid"
+                ).AddItem(
+                    new MenuItemDefinition(
+                    IndentAppPermissions.Indent,
+                    L("Indent"),
+                    "icon-star",
+                    url: "Mpa/IndentManage",
+                    requiredPermissionName: IndentAppPermissions.Indent)))
+                //销售漏斗图表
+                .AddItem(new MenuItemDefinition(
+                    PageNames.App.Chart.ChartData,
+                        L("ChartData"),
+                        icon: "icon-grid"
+                    ).AddItem(new MenuItemDefinition(
+                        PageNames.App.Chart.HistogramByMonth,
+                        L("HistogramByMonth"),
+                        "icon-star",
+                        url: "Mpa/Highcharts",
+                        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
 
-                //        )).AddItem(new MenuItemDefinition(
-                //        PageNames.App.Chart.HistogramByArea,
-                //        L("HistogramByArea"),
-                //        "icon-star",
-                //        url: "Mpa/Highcharts/AreaIndex",
-                //        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
+                        )).AddItem(new MenuItemDefinition(
+                        PageNames.App.Chart.HistogramByArea,
+                        L("HistogramByArea"),
+                        "icon-star",
+                        url: "Mpa/Highcharts/AreaIndex",
+                        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
 
-                //        )).AddItem(new MenuItemDefinition(
-                //        PageNames.App.Chart.HistogramByType,
-                //        L("HistogramByType"),
-                //        "icon-star",
-                //        url: "Mpa/Highcharts/HospitalIndex",
-                //        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
+                        )).AddItem(new MenuItemDefinition(
+                        PageNames.App.Chart.HistogramByType,
+                        L("HistogramByType"),
+                        "icon-star",
+                        url: "Mpa/Highcharts/HospitalIndex",
+                        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
 
-                //        )).AddItem(new MenuItemDefinition(
-                //        PageNames.App.Chart.Pie,
-                //        L("Pie"),
-                //        "icon-star",
-                //        url: "Mpa/Highcharts/Pie",
-                //        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
+                        )).AddItem(new MenuItemDefinition(
+                        PageNames.App.Chart.Pie,
+                        L("Pie"),
+                        "icon-star",
+                        url: "Mpa/Highcharts/Pie",
+                        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
 
-                //        )).AddItem(new MenuItemDefinition(
-                //        PageNames.App.Chart.AreaPie,
-                //        L("AreaPie"),
-                //        "icon-star",
-                //        url: "Mpa/Highcharts/AreaPie",
-                //        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
+                        )).AddItem(new MenuItemDefinition(
+                        PageNames.App.Chart.AreaPie,
+                        L("AreaPie"),
+                        "icon-star",
+                        url: "Mpa/Highcharts/AreaPie",
+                        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
 
-                //        )).AddItem(new MenuItemDefinition(
-                //        PageNames.App.Chart.ProductTypePie,
-                //        L("ProductTypePie"),
-                //        "icon-star",
-                //        url: "Mpa/Highcharts/ProductTypePie",
-                //        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
-                //        )))
+                        )).AddItem(new MenuItemDefinition(
+                        PageNames.App.Chart.ProductTypePie,
+                        L("ProductTypePie"),
+                        "icon-star",
+                        url: "Mpa/Highcharts/ProductTypePie",
+                        requiredPermissionName: SaleFunnelAppPermissions.SaleFunnel
+
+                        )))
+
                 ;
         }
 

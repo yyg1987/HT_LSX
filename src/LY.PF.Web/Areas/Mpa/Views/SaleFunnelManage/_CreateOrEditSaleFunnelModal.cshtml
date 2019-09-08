@@ -17,9 +17,9 @@
         <div class="row">
             <!--<div class="alert alert-info fs16 bold mt10">分节标题</div>-->
 
-            <div class="col-sm-6">
+            <div class="col-sm-12">
                 <div class="form-group">
-                    <label class="col-sm-3 control-label">@L("Id")</label>
+                    <label class="col-sm-3 control-label hidden">@L("Id")</label>
                     <div class="col-sm-8">
                         <input class="" type="hidden" id="Id" name="Id" value="@Model.SaleFunnel.Id" />
                         <span class="help-inline"></span>
@@ -45,7 +45,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("Saler")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="Saler" name="Saler" maxlength="64" value="@Model.SaleFunnel.Saler" />
+                        <input class="form-control " type="text" id="Saler" name="Saler" maxlength="64" value="@Model.SaleFunnel.Saler" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("ClientName")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="ClientName" name="ClientName" maxlength="64" value="@Model.SaleFunnel.ClientName" />
+                        <input class="form-control" type="text" id="ClientName" name="ClientName" maxlength="64" value="@Model.SaleFunnel.ClientName" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("Adress")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="Adress" name="Adress" maxlength="512" value="@Model.SaleFunnel.Adress" />
+                        <input class="form-control " type="text" id="Adress" name="Adress" maxlength="512" value="@Model.SaleFunnel.Adress" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("ProductName")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="ProductName" name="ProductName" maxlength="64" value="@Model.SaleFunnel.ProductName" />
+                        <input class="form-control " type="text" id="ProductName" name="ProductName" maxlength="64" value="@Model.SaleFunnel.ProductName" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("ProductModel")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="ProductModel" name="ProductModel" maxlength="64" value="@Model.SaleFunnel.ProductModel" />
+                        <input class="form-control " type="text" id="ProductModel" name="ProductModel" maxlength="64" value="@Model.SaleFunnel.ProductModel" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("Price")<span style="color:red">*</span></label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="Price" name="Price" maxlength="32" value="@Model.SaleFunnel.Price" required/>
+                        <input class="form-control " type="number" id="Price" name="Price" min="0.01"  value="@Model.SaleFunnel.Price" required/>
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("Number")<span style="color:red">*</span></label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="number" id="Number" name="Number" min="1" max="9999999"  value="@Model.SaleFunnel.Number" required/>
+                        <input class="form-control " type="number" id="Number" name="Number" min="1" max="9999999"  value="@Model.SaleFunnel.Number" required/>
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("SumPrice")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="SumPrice" name="SumPrice" maxlength="32" value="@Model.SaleFunnel.SumPrice" readonly/>
+                        <input class="form-control " type="text" id="SumPrice" name="SumPrice" maxlength="32" value="@Model.SaleFunnel.SumPrice" readonly/>
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("StatementTime")</label>
                     <div class="col-sm-8">
-                        <input class="form-control date-picker inline w300 date-picker" type="text" id="StatementTime" name="StatementTime" value="@Model.SaleFunnel.StatementTime" />
+                        <input class="form-control " type="text" id="StatementTime" name="StatementTime" value="@Model.SaleFunnel.StatementTime" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("ContendNumber")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="ContendNumber" name="ContendNumber" value="@Model.SaleFunnel.ContendNumber" />
+                        <input class="form-control " type="number" id="ContendNumber" name="ContendNumber"  min="1" max="9999999" value="@Model.SaleFunnel.ContendNumber" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -179,7 +179,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("Stage")</label>
                     <div class="col-sm-8">
-                        @*<input class="form-control inline w300  maxlength-handler " type="text" id="Stage" name="Stage" maxlength="64" value="@Model.SaleFunnel.Stage" />*@
+                        @*<input class="form-control " type="text" id="Stage" name="Stage" maxlength="64" value="@Model.SaleFunnel.Stage" />*@
                         <select id="Stage" name="Stage" class="form-control required">
                             <option value="10%">10%</option>
                             <option value="30%">30%</option>
@@ -197,7 +197,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("StageTime")</label>
                     <div class="col-sm-8">
-                        <input class="form-control date-picker inline w300 date-picker" type="text" id="StageTime" name="StageTime" value="@Model.SaleFunnel.StageTime" />
+                        <input class="form-control " type="text" id="StageTime" name="StageTime" value="@Model.SaleFunnel.StageTime" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("ChanceSum")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="ChanceSum" name="ChanceSum" maxlength="64" value="@Model.SaleFunnel.ChanceSum" />
+                        <input class="form-control " type="text" id="ChanceSum" name="ChanceSum" maxlength="64" value="@Model.SaleFunnel.ChanceSum" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -215,7 +215,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("LastTime")</label>
                     <div class="col-sm-8">
-                        <input class="form-control date-picker inline w300 date-picker" type="text" id="LastTime" name="LastTime" value="@Model.SaleFunnel.LastTime" />
+                        <input class="form-control " type="text" id="LastTime" name="LastTime" value="@Model.SaleFunnel.LastTime" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -224,7 +224,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("NextAction")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="NextAction" name="NextAction" maxlength="512" value="@Model.SaleFunnel.NextAction" />
+                        <input class="form-control " type="text" id="NextAction" name="NextAction" maxlength="512" value="@Model.SaleFunnel.NextAction" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("NextTime")</label>
                     <div class="col-sm-8">
-                        <input class="form-control date-picker inline w300 date-picker" type="text" id="NextTime" name="NextTime" value="@Model.SaleFunnel.NextTime" />
+                        <input class="form-control " type="text" id="NextTime" name="NextTime" value="@Model.SaleFunnel.NextTime" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("RivalA")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="RivalA" name="RivalA" maxlength="64" value="@Model.SaleFunnel.RivalA" />
+                        <input class="form-control " type="text" id="RivalA" name="RivalA" maxlength="64" value="@Model.SaleFunnel.RivalA" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -251,7 +251,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("ProductModelA")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="ProductModelA" name="ProductModelA" maxlength="64" value="@Model.SaleFunnel.ProductModelA" />
+                        <input class="form-control " type="text" id="ProductModelA" name="ProductModelA" maxlength="64" value="@Model.SaleFunnel.ProductModelA" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -260,7 +260,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("RivalB")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="RivalB" name="RivalB" maxlength="64" value="@Model.SaleFunnel.RivalB" />
+                        <input class="form-control " type="text" id="RivalB" name="RivalB" maxlength="64" value="@Model.SaleFunnel.RivalB" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -269,7 +269,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("ProductModelB")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="ProductModelB" name="ProductModelB" maxlength="64" value="@Model.SaleFunnel.ProductModelB" />
+                        <input class="form-control " type="text" id="ProductModelB" name="ProductModelB" maxlength="64" value="@Model.SaleFunnel.ProductModelB" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -278,7 +278,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("Contact")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="Contact" name="Contact" maxlength="64" value="@Model.SaleFunnel.Contact" />
+                        <input class="form-control " type="text" id="Contact" name="Contact" maxlength="64" value="@Model.SaleFunnel.Contact" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -287,7 +287,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("ContactMobile")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="ContactMobile" name="ContactMobile" maxlength="64" value="@Model.SaleFunnel.ContactMobile" />
+                        <input class="form-control " type="text" id="ContactMobile" name="ContactMobile" maxlength="64" value="@Model.SaleFunnel.ContactMobile" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -296,7 +296,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("Purchase")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="Purchase" name="Purchase" maxlength="64" value="@Model.SaleFunnel.Purchase" />
+                        <input class="form-control " type="text" id="Purchase" name="Purchase" maxlength="64" value="@Model.SaleFunnel.Purchase" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -305,7 +305,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("PurchaseMobile")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="PurchaseMobile" name="PurchaseMobile" maxlength="64" value="@Model.SaleFunnel.PurchaseMobile" />
+                        <input class="form-control " type="text" id="PurchaseMobile" name="PurchaseMobile" maxlength="64" value="@Model.SaleFunnel.PurchaseMobile" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -314,7 +314,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("Dean")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="Dean" name="Dean" maxlength="64" value="@Model.SaleFunnel.Dean" />
+                        <input class="form-control " type="text" id="Dean" name="Dean" maxlength="64" value="@Model.SaleFunnel.Dean" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -323,7 +323,7 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("DeanMobile")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="DeanMobile" name="DeanMobile" maxlength="64" value="@Model.SaleFunnel.DeanMobile" />
+                        <input class="form-control " type="text" id="DeanMobile" name="DeanMobile" maxlength="64" value="@Model.SaleFunnel.DeanMobile" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
@@ -332,34 +332,35 @@
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("LeadSource")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="LeadSource" name="LeadSource" maxlength="64" value="@Model.SaleFunnel.LeadSource" />
+                        <input class="form-control " type="text" id="LeadSource" name="LeadSource" maxlength="64" value="@Model.SaleFunnel.LeadSource" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 hidden">
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("CreateBy")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="CreateBy" name="CreateBy" maxlength="32" value="@Model.SaleFunnel.CreateBy" />
+                        <input class="form-control " type="text" id="CreateBy" name="CreateBy" maxlength="32" value="@Model.SaleFunnel.CreateBy" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-sm-6 hidden">
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("UpdateTime")</label>
                     <div class="col-sm-8">
-                        <input class="form-control date-picker inline w300 date-picker" type="text" id="UpdateTime" name="UpdateTime" value="@Model.SaleFunnel.UpdateTime" />
+                        <input class="form-control " type="text" id="UpdateTime" name="UpdateTime" value="@Model.SaleFunnel.UpdateTime" />
                         <span class="help-inline"></span>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 hidden">
                 <div class="form-group">
                     <label class="col-sm-3 control-label">@L("UpdateBy")</label>
                     <div class="col-sm-8">
-                        <input class="form-control inline w300  maxlength-handler " type="text" id="UpdateBy" name="UpdateBy" maxlength="32" value="@Model.SaleFunnel.UpdateBy" />
+                        <input class="form-control " type="text" id="UpdateBy" name="UpdateBy" maxlength="32" value="@Model.SaleFunnel.UpdateBy" />
                         <span class="help-inline"></span>
                     </div>
                 </div>

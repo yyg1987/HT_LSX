@@ -333,17 +333,6 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Localization\PF\PF-es.xml" />
-    <Content Include="Localization\AbpZeroTemplate\AbpZeroTemplate-ar.xml" />
-    <Content Include="Localization\AbpZeroTemplate\AbpZeroTemplate-de.xml" />
-    <Content Include="Localization\AbpZeroTemplate\AbpZeroTemplate-es.xml" />
-    <Content Include="Localization\AbpZeroTemplate\AbpZeroTemplate-fr.xml" />
-    <Content Include="Localization\AbpZeroTemplate\AbpZeroTemplate-it.xml" />
-    <Content Include="Localization\AbpZeroTemplate\AbpZeroTemplate-pt-BR.xml" />
-    <Content Include="Localization\AbpZeroTemplate\AbpZeroTemplate-ru.xml" />
-    <Content Include="Localization\AbpZeroTemplate\AbpZeroTemplate-tr.xml" />
-    <Content Include="Localization\AbpZeroTemplate\AbpZeroTemplate-zh-CN.xml" />
-    <Content Include="Localization\AbpZeroTemplate\AbpZeroTemplate.xml" />
-    <Content Include="Localization\AbpZeroTemplate\READ_ME.txt" />
     <Content Include="Localization\PF\READ_ME.txt" />
     <EmbeddedResource Include="Emailing\EmailTemplates\default.html" />
   </ItemGroup>

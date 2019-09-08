@@ -8,6 +8,7 @@ using Abp.Application.Services.Dto;
 using Abp.Authorization;
 using Abp.AutoMapper;
 using Abp.Domain.Repositories;
+using Abp.Extensions;
 using Abp.Linq.Extensions;
 using LY.PF.ClientTypes.Authorization;
 using LY.PF.ClientTypes.Dtos;
@@ -59,6 +60,8 @@ ClientTypeManage clientTypeManage
 
             var query = _clientTypeRepositoryAsNoTrack;
             //TODO:根据传入的参数添加过滤条件
+            query = query
+                .WhereIf(!input.FilterText.IsNullOrWhiteSpace(), item => item.ClientTypeName.Contains(input.FilterText) || item.Remark.Contains(input.FilterText));
 
             var clientTypeCount = await query.CountAsync();
 

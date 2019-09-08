@@ -848,6 +848,7 @@
     <Content Include="Content\fonts-open-sans.css" />
     <Content Include="Content\fonts-ptsans-narrow.css" />
     <Content Include="Content\fonts-sourcesans-pro.css" />
+    <Content Include="Content\js\highcharts\highcharts.js" />
     <Content Include="Content\ui-bootstrap-csp.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="libs\angular-bootstrap-switch\angular-bootstrap-switch.js" />
@@ -865,8 +866,12 @@
     <Content Include="libs\angular-ui-grid\ui-grid.svg" />
     <Content Include="libs\bootstrap-daterangepicker\daterangepicker.css" />
     <Content Include="libs\bootstrap-daterangepicker\daterangepicker.js" />
+    <Content Include="libs\bootstrap-datetimepicker\css\bootstrap-datetimepicker.min.css" />
+    <Content Include="libs\bootstrap-datetimepicker\js\bootstrap-datetimepicker.min.js" />
+    <Content Include="libs\bootstrap-datetimepicker\js\locales\bootstrap-datetimepicker.zh-CN.js" />
     <Content Include="libs\bootstrap-hover-dropdown\bootstrap-hover-dropdown.js" />
     <Content Include="libs\bootstrap-hover-dropdown\bootstrap-hover-dropdown.min.js" />
+    <Content Include="libs\bootstrap-maxlength\bootstrap-maxlength.min.js" />
     <Content Include="libs\bootstrap-select\bootstrap-select.css" />
     <Content Include="libs\bootstrap-select\bootstrap-select.js" />
     <Content Include="libs\bootstrap-select\bootstrap-select.min.css" />
@@ -1133,7 +1138,9 @@
     <Content Include="libs\jquery-jtable\themes\lightcolor\red\loading.gif" />
     <Content Include="libs\jquery-jtable\themes\metro\add.png" />
     <Content Include="libs\jquery-jtable\themes\metro\blue\jtable.css" />
-    <Content Include="libs\jquery-jtable\themes\metro\blue\jtable.min.css" />
+    <Content Include="libs\jquery-jtable\themes\metro\blue\jtable.min.css">
+      <DependentUpon>jtable.css</DependentUpon>
+    </Content>
     <Content Include="libs\jquery-jtable\themes\metro\blue\loading.gif" />
     <Content Include="libs\jquery-jtable\themes\metro\brown\jtable.css" />
     <Content Include="libs\jquery-jtable\themes\metro\brown\jtable.min.css" />
@@ -3087,6 +3094,8 @@
     <Content Include="Areas\Mpa\Views\Highcharts\Pie.cshtml" />
     <Content Include="Areas\Mpa\Views\Highcharts\ProductIndex.cshtml" />
     <Content Include="Areas\Mpa\Views\Highcharts\ProductTypePie.cshtml" />
+    <None Include="bundleconfig.json" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />

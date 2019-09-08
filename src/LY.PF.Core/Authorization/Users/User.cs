@@ -12,7 +12,7 @@ namespace LY.PF.Authorization.Users
     {
         public const int MinPlainPasswordLength = 6;
 
-        public const int MaxPhoneNumberLength = 24;
+        //public const int MaxPhoneNumberLength = 24;
 
         public virtual Guid? ProfilePictureId { get; set; }
 

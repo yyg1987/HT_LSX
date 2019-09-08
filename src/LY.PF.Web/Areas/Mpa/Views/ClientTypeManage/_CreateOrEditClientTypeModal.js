@@ -6,7 +6,7 @@
 
         var _clientTypeService = abp.services.app.clientType;
 
-		$(".maxlength-handler").maxlength({
+        $(".maxlength-handler").maxlength({
             limitReachedClass: "label label-danger",
             alwaysShow: true,
             threshold: 5,
@@ -18,36 +18,36 @@
 
         this.init = function (modalManager) {
             _modalManager = modalManager;
-			            _$clientTypeInformationForm = _modalManager.getModal().find("form[name=clientTypeInformationsForm]");
+            _$clientTypeInformationForm = _modalManager.getModal().find("form[name=clientTypeInformationsForm]");
 
-			 
-			// 初始化 CreateTime 的包含时分秒的日期控件
-		   //包含时分秒的日期选择器             
-                $("input[name=CreationTime]").datetimepicker({
+
+            // 初始化 CreateTime 的包含时分秒的日期控件
+            //包含时分秒的日期选择器             
+            $("input[name=CreationTime]").datetimepicker({
                 autoclose: true,
                 isRTL: false,
                 format: "yyyy-mm-dd hh:ii",
                 pickerPosition: ("bottom-left"),
-				//默认为E文按钮要中文，自己去找语言包
-				   todayBtn: true,
-				     language: "zh-CN"
+                //默认为E文按钮要中文，自己去找语言包
+                todayBtn: true,
+                language: "zh-CN"
             });
-	 
-			   	 	 	 // 初始化 UpdateTime 的包含时分秒的日期控件
-		   //包含时分秒的日期选择器             
+
+            // 初始化 UpdateTime 的包含时分秒的日期控件
+            //包含时分秒的日期选择器             
             $("input[name=UpdateTime]").datetimepicker({
                 autoclose: true,
                 isRTL: false,
                 format: "yyyy-mm-dd hh:ii",
                 pickerPosition: ("bottom-left"),
-				//默认为E文按钮要中文，自己去找语言包
-				   todayBtn: true,
-				     language: "zh-CN"
+                //默认为E文按钮要中文，自己去找语言包
+                todayBtn: true,
+                language: "zh-CN"
             });
-	 
+
 
         }
-        
+
         this.save = function () {
             if (!_$clientTypeInformationForm.valid()) {
                 return;
@@ -55,7 +55,7 @@
             //校验通过
 
             var clientType = _$clientTypeInformationForm.serializeFormToObject();
-          //  console.log(clientType);
+            //  console.log(clientType);
 
             _modalManager.setBusy(true);
 
@@ -75,4 +75,3 @@
     }
 })(jQuery);
 
-   

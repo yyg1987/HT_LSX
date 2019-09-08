@@ -12,6 +12,8 @@ using Abp.Linq.Extensions;
 using LY.PF.Indents.Authorization;
 using LY.PF.Indents.Dtos;
 using LY.PF.Dto;
+using Abp.Extensions;
+using LY.PF.ProductTypes;
 
 namespace LY.PF.Indents
 {
@@ -25,6 +27,7 @@ namespace LY.PF.Indents
     {
         private readonly IRepository<Indent, System.Guid> _indentRepository;
         private readonly IIndentListExcelExporter _indentListExcelExporter;
+        private readonly IRepository<ProductType, int> _productTypeRepository;
 
 
         private readonly IndentManage _indentManage;
@@ -32,22 +35,22 @@ namespace LY.PF.Indents
         /// 构造方法
         /// </summary>
         public IndentAppService(IRepository<Indent, System.Guid> indentRepository,
-IndentManage indentManage
-      , IIndentListExcelExporter indentListExcelExporter
-  )
+            IndentManage indentManage,
+            IRepository<ProductType, int> productTypeRepository,
+            IIndentListExcelExporter indentListExcelExporter
+            )
         {
             _indentRepository = indentRepository;
             _indentManage = indentManage;
+            _productTypeRepository = productTypeRepository;
             _indentListExcelExporter = indentListExcelExporter;
         }
-
 
         #region 实体的自定义扩展方法
         private IQueryable<Indent> _indentRepositoryAsNoTrack => _indentRepository.GetAll().AsNoTracking();
 
 
         #endregion
-
 
         #region 订单管理
 
@@ -59,6 +62,8 @@ IndentManage indentManage
 
             var query = _indentRepositoryAsNoTrack;
             //TODO:根据传入的参数添加过滤条件
+            query = query
+                .WhereIf(!input.FilterText.IsNullOrWhiteSpace(), item => item.ProductName.Contains(input.FilterText) || item.Remark.Contains(input.FilterText));
 
             var indentCount = await query.CountAsync();
 
@@ -92,6 +97,15 @@ IndentManage indentManage
             {
                 indentEditDto = new IndentEditDto();
             }
+
+            var all = await _productTypeRepository.GetAllListAsync();
+            var allList = new List<ComboboxItemDto>();
+            allList.Add(new ComboboxItemDto() { Value = "0", DisplayText = "请选择" });
+            foreach (var item in all)
+            {
+                allList.Add(new ComboboxItemDto() { Value = item.Id.ToString(), DisplayText = item.ProductTypeName });
+            }
+            output.ProductTypes = allList;
 
             output.Indent = indentEditDto;
             return output;
@@ -133,7 +147,7 @@ IndentManage indentManage
 
             var entity = input.MapTo<Indent>();
             entity.CreateTime = DateTime.Now;
-            entity.Id = new Guid();
+            entity.Id =  Guid.NewGuid();
             entity.CreateBy = GetCurrentUser().UserName;
             entity.UpdateTime = DateTime.Now;
             entity = await _indentRepository.InsertAsync(entity);
@@ -147,7 +161,7 @@ IndentManage indentManage
         public virtual async Task UpdateIndentAsync(IndentEditDto input)
         {
             //TODO:更新前的逻辑判断，是否允许更新
-            
+
             var entity = await _indentRepository.GetAsync(input.Id.Value);
             input.MapTo(entity);
             entity.UpdateTime = DateTime.Now;

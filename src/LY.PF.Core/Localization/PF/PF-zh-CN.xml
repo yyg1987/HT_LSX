@@ -91,7 +91,7 @@
     <text name="SmtpHost" value="SMTP服务器" />
     <text name="SmtpPort" value="SMTP端口" />
     <text name="UseDefaultCredentials" value="默认身份验证" />
-    <text name="DomainName" value="域名" />
+    <!--<text name="DomainName" value="域名" />-->
     <text name="UseSsl" value="使用SSL" />
     <text name="ThisWebSiteRootAddress" value="网站http根路径" />
     <text name="ThisWebSiteRootAddress_Hint" value="示例： http://mydomain.com/ ，用于外部链接本系统，如密码重置链接" />
@@ -182,7 +182,7 @@
     <text name="ActivationMailSentMessage" value="已向您的邮箱发送了一封邮箱地址验证邮件，请查收." />
     <text name="UseCaptchaOnRegistration" value="用户注册时使用图片验证码(captcha)." />
     <text name="FormBasedRegistration" value="基于表单身份验证" />
-    <text name="LdapSettings" value="LDAP设置" />
+    <!--<text name="LdapSettings" value="LDAP设置" />-->
     <text name="EnableLdapAuthentication" value="启用轻量目录访问协议(LDAP)认证." />
     <text name="OtherSettings" value="其它设置" />
     <text name="AuditLogs" value="审计日志" />
@@ -332,8 +332,8 @@
     <text name="DeleteClientType" value="删除客户类型" />
     <text name="ClientTypeDeleteWarningMessage" value="客户类型名称: {0} 将被删除,是否确定删除它。" />
     <!--//用于表格展示的数据信息的标题-->
-    <text name="ClientTypeName" value="名称" />
-    <text name="IsValid" value="是否禁用" />
+    <text name="ClientTypeName" value="客户类型" />
+    <text name="IsValid" value="状态" />
 
 
     <!-- 区域管理 -->
@@ -344,6 +344,8 @@
     <text name="DistrictDeleteWarningMessage" value="区域名称: {0} 将被删除,是否确定删除它。" />
     <!--//用于表格展示的数据信息的标题-->
     <text name="DistrictName" value="名称" />
+    <text name="Address" value="地址" />
+
     <text name="ParentDistrictId" value="母区域" />
 
 
@@ -354,7 +356,8 @@
     <text name="DeleteProductType" value="删除产品类型" />
     <text name="ProductTypeDeleteWarningMessage" value="产品类型名称: {0} 将被删除,是否确定删除它。" />
     <!--//用于表格展示的数据信息的标题-->
-    <text name="ProductTypeName" value="名称" />
+    <text name="ProductTypeName" value="产品类型" />
+    <text name="StatusName" value="状态" />
 
 
     <!-- 订单管理 -->
@@ -370,6 +373,7 @@
     <text name="Status" value="状态" />
     <text name="Remark" value="备注" />
     <text name="CreateTime" value="创建时间" />
+    <text name="TotalPrice" value="总价" />
 
 
     <!-- 产品管理 -->
@@ -391,6 +395,50 @@
     <text name="ProductTypePie" value="产品类型饼图" />
     <text name="ChartData" value="销售漏斗管理" />
     <!--//用于表格展示的数据信息的标题-->
+    
+        <!-- 补充 -->  
+    <text name="OrganizationUnits" value="组织" />
+    <text name="Maintenance" value="维护" />
+    <text name="OrganizationUnitsHeaderInfo" value="组织结构信息" />
+    <text name="OrganizationTree" value="组织树" />
+    <text name="AddRootUnit" value="添加根单元" />
+    <text name="NoOrganizationUnitDefinedYet" value="还没有定义组织单元" />
+    <text name="Members" value="成员" />
+    <text name="AddMember" value="添加成员" />
+    <text name="SelectAnOrganizationUnitToSeeMembers" value="选择一个组织单元来查看成员" />
+    <text name="Caches" value="缓存" />
+    <text name="WebSiteLogs" value="网页日志" />
+    <text name="CachesHeaderInfo" value="缓存头信息" />
+    <text name="ClearAll" value="全部清除" />
+    <text name="Clear" value="清除" />
+    <text name="WebSiteLogsHeaderInfo" value="网页日志头信息" />
+    <text name="DownloadAll" value="全部下载" />
+    <text name="Appearance" value="外观" />
+    <text name="Security" value="安全" />
+    <text name="Timezone" value="时区" />
+    <text name="UploadLogo_Info" value="上传标识信息" />
+    <text name="Upload" value="上传" />
+    <text name="UploadCSS_Info" value="上传样式文件" />
+    <text name="LdapSettings" value="本地设置" />
+    <!--<text name="EnableLdapAuthentication" value="本地权限设置" />-->
+    <text name="DomainName" value="网域名称" />
+    <text name="PasswordComplexity" value="密码复杂性" />
+    <text name="UseDefaultSettings" value="使用默认设置" />
+    <text name="MinPasswordLength" value="密码最小长度" />
+    <text name="MaxPasswordLength" value="密码最大长度" />
+    <text name="UseNumbers" value="使用数字" />
+    <text name="UseUpperCaseLetters" value="使用大写字母" />
+    <text name="UseLowerCaseLetters" value="使用小写字母" />
+    <text name="UsePunctuations" value="使用标点符号" />
+    <text name="UserLockOut" value="用户锁定" />
+    <text name="EnableUserAccountLockingOnFailedLoginAttemts" value="在登录失败时启用用户帐户锁定" />
+    <text name="MaxFailedAccessAttemptsBeforeLockout" value="锁定前的最大访问尝试失败" />
+    <text name="DefaultAccountLockoutDurationAsSeconds" value="默认帐户锁定时间为秒" />
+    <text name="TwoFactorLogin" value="双重认证登录" />
+    <text name="EnableTwoFactorLogin" value="启用双重认证登录" />
+    <text name="IsEmailVerificationEnabled" value="是否启用电子邮件验证" />
+    <text name="IsSmsVerificationEnabled" value="启用短信验证" />
+    <text name="AllowToRememberBrowserForTwoFactorLogin" value="允许记住浏览器的双因素登录" />
     
   </texts>
 </localizationDictionary>

@@ -107,7 +107,10 @@
 
                 creationTime: {
                     title: app.localize('CreationTime'),
-                    width: '5%'
+                    width: '5%',
+                    display: function (data) {
+                        return data.record.creationTime;
+                    }
                 },
 
 

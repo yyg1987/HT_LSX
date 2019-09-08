@@ -56,8 +56,8 @@ function add() {
                     break;
                 default:
             }
-            if (data.result.state == 'success') {
-                getSaleOrders();                
+            if (data.result.state === 'success') {
+                getSaleOrders();
                 setTimeout(function () {
                     it.hide(100, function () {
                         it.remove();
@@ -98,7 +98,7 @@ function checkFile(frm) {
     var size = fs[0].size;
     var name = fs[0].name;
     var idx = name.lastIndexOf('.');
-    var name = name.slice(0, idx);
+        name = name.slice(0, idx);
     //if (!nameRgx.test(name)) {
     //    setOutput(frm, 'error', notMatchMsg);
     //    return false;
@@ -135,7 +135,7 @@ function setOutput(frm, state, msg) {
 }
 
 function Download(id) {
-    if (id == null) {
+    if (id === null) {
         layer.msg("请选择要下载的数据行", "warning");
     }
     else {
@@ -145,7 +145,7 @@ function Download(id) {
             data: { KeyValue: id },
             dataType: "json",
             success: function (data) {
-                if (data.state == "success") {
+                if (data.state === "success") {
                     window.location.href = data.message;
                 } else {
                     $.modalAlert(data.message, data.state);
@@ -154,8 +154,6 @@ function Download(id) {
         });
     }
 }
-
-
 
 $(function () {
 
@@ -166,225 +164,228 @@ $(function () {
 var _$saleOrdersTable = $('#SaleOrdersTable');
 var _saleOrderService = abp.services.app.saleOrder;
 
+var _permissions = {
+    create: abp.auth.hasPermission("Pages.SaleOrder.CreateSaleOrder"),
+    edit: abp.auth.hasPermission("Pages.SaleOrder.EditSaleOrder"),
+    'delete': abp.auth.hasPermission("Pages.SaleOrder.DeleteSaleOrder")
 
-    function getPagedSaleOrder() {
+};
 
-        var _permissions = {
-            create: abp.auth.hasPermission("Pages.SaleOrder.CreateSaleOrder"),
-            edit: abp.auth.hasPermission("Pages.SaleOrder.EditSaleOrder"),
-            'delete': abp.auth.hasPermission("Pages.SaleOrder.DeleteSaleOrder")
+var _createOrEditModal = new app.ModalManager({
+    viewUrl: abp.appPath + 'Mpa/SaleOrderManage/CreateOrEditSaleOrderModal',
+    scriptUrl: abp.appPath + 'Areas/Mpa/Views/SaleOrderManage/_CreateOrEditSaleOrderModal.js',
+    modalClass: 'CreateOrEditSaleOrderModal'
+});
 
-        };
+function getPagedSaleOrder() {
+
+    var _permissions = {
+        create: abp.auth.hasPermission("Pages.SaleOrder.CreateSaleOrder"),
+        edit: abp.auth.hasPermission("Pages.SaleOrder.EditSaleOrder"),
+        'delete': abp.auth.hasPermission("Pages.SaleOrder.DeleteSaleOrder")
+
+    };
 
 
-        var _createOrEditModal = new app.ModalManager({
-            viewUrl: abp.appPath + 'Mpa/SaleOrderManage/CreateOrEditSaleOrderModal',
-            scriptUrl: abp.appPath + 'Areas/Mpa/Views/SaleOrderManage/_CreateOrEditSaleOrderModal.js',
-            modalClass: 'CreateOrEditSaleOrderModal'
-        });
+    var _createOrEditModal = new app.ModalManager({
+        viewUrl: abp.appPath + 'Mpa/SaleOrderManage/CreateOrEditSaleOrderModal',
+        scriptUrl: abp.appPath + 'Areas/Mpa/Views/SaleOrderManage/_CreateOrEditSaleOrderModal.js',
+        modalClass: 'CreateOrEditSaleOrderModal'
+    });
 
-        _$saleOrdersTable.jtable({
+    _$saleOrdersTable.jtable({
 
-            title: app.localize('SaleOrder'),
-            paging: true,
-            sorting: true,
-            //  multiSorting: true,
+        title: app.localize('SaleOrder'),
+        paging: true,
+        sorting: true,
+        //  multiSorting: true,
+        actions: {
+            listAction: {
+                method: _saleOrderService.getPagedSaleOrders
+            }
+        },
+
+        fields: {
+
             actions: {
-                listAction: {
-                    method: _saleOrderService.getPagedSaleOrders
-                }
+                width: '5%',
+                type: 'record-actions',
+                cssClass: 'btn btn-xs btn-primary blue',
+                text: '<i class="fa fa-cog"></i> ' + app.localize('Actions') + ' <span class="caret"></span>',
+                items: [
+                    {
+                        text: app.localize('Edit'),
+                        visible: function () {
+                            return _permissions.edit;
+                        },
+                        action: function (data) {
+                            _createOrEditModal.open({ id: data.record.id });
+                        }
+                    }, {
+                        text: app.localize('Delete'),
+                        visible: function () {
+                            return _permissions.delete;
+                        },
+                        action: function (data) {
+                            deleteSaleOrder(data.record);
+                        }
+                    }]
+            },
+            //此处开始循环数据
+
+
+
+            id: {
+                key: true,
+                list: false
             },
 
-            fields: {
+            //imageUrl: {
+            //    title: app.localize('ImageUrl'),
+            //    width: '5%',
+            //    display: function (data) {
 
-                actions: {
-                    width: '5%',
-                    type: 'record-actions',
-                    cssClass: 'btn btn-xs btn-primary blue',
-                    text: '<i class="fa fa-cog"></i> ' + app.localize('Actions') + ' <span class="caret"></span>',
-                    items: [
-                        {
-                            text: app.localize('Edit'),
-                            visible: function () {
-                                return _permissions.edit;
-                            },
-                            action: function (data) {
-                                _createOrEditModal.open({ id: data.record.id });
-                            }
-                        }, {
-                            text: app.localize('Delete'),
-                            visible: function () {
-                                return _permissions.delete;
-                            },
-                            action: function (data) {
-                                deleteSaleOrder(data.record);
-                            }
-                        }]
-                },
-                //此处开始循环数据
+            //        return '<a style="cursor: pointer; text-decoration:none;"  onclick="open_win(\'' + data.record.imageUrl + '\');" href="#" data-rel="tooltip" title="查看用户">' +
+            //            '<img src="' + data.record.imageUrl + '" alt="头像未找到"   style="width:80px;height:30px;" />' + '</a>';
+            //    }
+
+            //},
+
+            productName: {
+                title: app.localize('ProductName'),
+                width: '5%'
+            },
 
 
-
-                id: {
-                    key: true,
-                    list: false
-                },
-
-                imageUrl: {
-                    title: app.localize('ImageUrl'),
-                    width: '5%',
-                    display: function (data) {
-
-                        return '<a style="cursor: pointer; text-decoration:none;"  onclick="open_win(\'' + data.record.imageUrl + '\');" href="#" data-rel="tooltip" title="查看用户">' +
-                            '<img src="' + data.record.imageUrl + '" alt="头像未找到"   style="width:80px;height:30px;" />' + '</a>';
-                    }
-
-                },
-
-                productName: {
-                    title: app.localize('ProductName'),
-                    width: '5%'
-                },
+            productTypeName: {
+                title: app.localize('ProductType'),
+                width: '5%'
+            },
 
 
-                productTypeName: {
-                    title: app.localize('ProductType'),
-                    width: '5%'
-                },
+            //scheduleNumber: {
+            //    title: app.localize('ScheduleNumber'),
+            //    width: '5%'
+            //},
 
 
-                //scheduleNumber: {
-                //    title: app.localize('ScheduleNumber'),
-                //    width: '5%'
-                //},
+            //actualNumber: {
+            //    title: app.localize('ActualNumber'),
+            //    width: '5%'
+            //},
 
 
-                //actualNumber: {
-                //    title: app.localize('ActualNumber'),
-                //    width: '5%'
-                //},
+            //price: {
+            //    title: app.localize('Price'),
+            //    width: '5%'
+            //},
 
 
-                //price: {
-                //    title: app.localize('Price'),
-                //    width: '5%'
-                //},
+            //totalPrice: {
+            //    title: app.localize('TotalPrice'),
+            //    width: '5%'
+            //},
 
 
-                //totalPrice: {
-                //    title: app.localize('TotalPrice'),
-                //    width: '5%'
-                //},
+            statusName: {
+                title: app.localize('StatusName'),
+                width: '5%'
+            },
 
 
-                statusName: {
-                    title: app.localize('StatusName'),
-                    width: '5%'
-                },
+            remark: {
+                title: app.localize('Remark'),
+                width: '5%'
+            },
 
 
-                remark: {
-                    title: app.localize('Remark'),
-                    width: '5%'
-                },
+            createBy: {
+                title: app.localize('CreateBy'),
+                width: '5%'
+            },
 
 
-                createBy: {
-                    title: app.localize('CreateBy'),
-                    width: '5%'
-                },
+            createTime: {
+                title: app.localize('CreateTime'),
+                width: '5%'
+            },
 
 
-                createTime: {
-                    title: app.localize('CreateTime'),
-                    width: '5%'
-                },
+            updateBy: {
+                title: app.localize('UpdateBy'),
+                width: '5%'
+            },
 
 
-                updateBy: {
-                    title: app.localize('UpdateBy'),
-                    width: '5%'
-                },
+            updateTime: {
+                title: app.localize('UpdateTime'),
+                width: '5%'
+            },
 
+        }
 
-                updateTime: {
-                    title: app.localize('UpdateTime'),
-                    width: '5%'
-                },
+    });
 
-            }
+}
 
+//打开添加窗口SPA
+$('#CreateNewSaleOrderButton').click(function () {
+    //可选生成的对话框大小{size:'lg'}or{size:'sm'}
+    //需要到_createContainer方法中添加,_args.size
+    _createOrEditModal.open();
+})
+
+//刷新表格信息
+$("#ButtonReload").click(function () {
+    getSaleOrders();
+})
+
+//模糊查询功能
+function getSaleOrders(reload) {
+    if (reload) {
+        _$saleOrdersTable.jtable('reload');
+    } else {
+        _$saleOrdersTable.jtable('load', {
+            filtertext: $('#SaleOrdersTableFilter').val()
         });
-
     }
+}
 
-
-        //打开添加窗口SPA
-        $('#CreateNewSaleOrderButton').click(function () {
-            //可选生成的对话框大小{size:'lg'}or{size:'sm'}
-            //需要到_createContainer方法中添加,_args.size
-            _createOrEditModal.open();
-        })
-
-
-
-
-        //刷新表格信息
-        $("#ButtonReload").click(function () {
-            getSaleOrders();
-        })
-
-
-
-
-        //模糊查询功能
-        function getSaleOrders(reload) {
-            if (reload) {
-                _$saleOrdersTable.jtable('reload');
-            } else {
-                _$saleOrdersTable.jtable('load', {
-                    filtertext: $('#SaleOrdersTableFilter').val()
+//删除当前saleOrder实体
+function deleteSaleOrder(saleOrder) {
+    abp.message.confirm(
+        app.localize('SaleOrderDeleteWarningMessage', saleOrder.productType),
+        function (isConfirmed) {
+            if (isConfirmed) {
+                _saleOrderService.deleteSaleOrder({
+                    id: saleOrder.id
+                }).done(function () {
+                    getSaleOrders(true);
+                    abp.notify.success(app.localize('SuccessfullyDeleted'));
                 });
             }
         }
-        
-        //删除当前saleOrder实体
-        function deleteSaleOrder(saleOrder) {
-            abp.message.confirm(
-                app.localize('SaleOrderDeleteWarningMessage', saleOrder.productType),
-                function (isConfirmed) {
-                    if (isConfirmed) {
-                        _saleOrderService.deleteSaleOrder({
-                            id: saleOrder.id
-                        }).done(function () {
-                            getSaleOrders(true);
-                            abp.notify.success(app.localize('SuccessfullyDeleted'));
-                        });
-                    }
-                }
-            );
-        }
+    );
+}
 
+//导出为excel文档
+$('#ExportToExcelButton').click(function () {
+    _saleOrderService
+        .getSaleOrderToExcel({})
+        .done(function (result) {
+            app.downloadTempFile(result);
+        });
+})
+//搜索
+$('#GetSaleOrdersButton').click(function (e) {
+    e.preventDefault();
+    getSaleOrders();
+})
 
-
-        //导出为excel文档
-        $('#ExportToExcelButton').click(function () {
-            _saleOrderService
-                .getSaleOrderToExcel({})
-                .done(function (result) {
-                    app.downloadTempFile(result);
-                });
-        })
-        //搜索
-        $('#GetSaleOrdersButton').click(function (e) {
-            e.preventDefault();
-            getSaleOrders();
-        })
-
-        //制作SaleOrder事件,用于请求变化后，刷新表格信息
-        abp.event.on('app.createOrEditSaleOrderModalSaved', function () {
-            getSaleOrders(true);
-        })
+//制作SaleOrder事件,用于请求变化后，刷新表格信息
+abp.event.on('app.createOrEditSaleOrderModalSaved', function () {
+    getSaleOrders(true);
+})
 
 
 
